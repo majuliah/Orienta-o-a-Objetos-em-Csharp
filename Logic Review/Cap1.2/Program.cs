@@ -160,6 +160,26 @@ namespace Cap1._2
             string word1 = words[0];
             string word2 = words[1];
             string word3 = words[2];
+            
+            
+            //Operadores comparativos:
+
+            int mu = 5;
+            int ma = 6;
+
+            bool resulta = mu > ma;
+            WriteLine(resulta);
+            resulta = mu < ma;
+            WriteLine(resulta);
+            resulta = mu == ma;
+            WriteLine(resulta);
+            resulta = mu <= ma;
+            WriteLine(resulta);
+            resulta = mu >= ma;
+            WriteLine(resulta);
+            resulta = mu != ma;
+            WriteLine(resulta);
+            
 
 
 

@@ -114,8 +114,40 @@ namespace Cap1._2
             //Primeiro incrementa o valor da variável e depois atribui na variável d
             
             
+            //Conversão Implícita e Casting
+
+            float numberer = 4.5f;
+            double numberere = numberer;
+            WriteLine(numberere);
+            //aqui houve uma conversão implícita de float para double
+            //se tentarmos fazer o processo inverso, não será possível. Para forçarmos uma conversão, precisamos fazer um casting, dessa forma:
+
+            double num = 5.1;
+            float numb = (float) num;
+            WriteLine(numb);
             
+            //agora uma conversão mais peculiar:
+            double aa;
+            int bb;
+
+            aa = 5.1;
+            bb = (int)aa;
+            WriteLine(bb);
+            //tivemos perdas de informações
+
+            int A = 5;
+            int B = 2;
+
+            double result = A / B;
+            WriteLine(result);
+            //tivemos perda de informações porque valores inteiros manipulados entre si geram valores inteiros, portando:
+
+            result = (double) A / B;
+            WriteLine(result);
+            //dessa forma nós conseguimos o resultado quebrado, que é o 2.5
             
+
+
 
 
 

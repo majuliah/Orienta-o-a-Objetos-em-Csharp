@@ -85,10 +85,44 @@ namespace Cap1._2
             //Interpolação maior e melhor >>>>
             
             
+            //atribuição
+
+            int a = 10;
+            a += 2; // 10 + 2
+            a -= 2; // 10 - 2
+            a *= 2; //10 * 2;
+            a /= 2; // 10 / 2;
+            a %= 3; // recebe o resto da divisão de a / 3 ( 10 / 3 = 1)
+
+            string s = "ABC";
+            s += "DEF";
+            WriteLine(s);
+            
+            //incremento
+            a++; // 11 -> pega o valor que já estava e depois faz o incremento
+            a--; // 9
+
+            
+            int b = 12;
+            int c = b++;
+            //primeiro ele joga o valor de b na variável c e depois incrementa no c o  +1
+            //Na impressão, sairá o resultado
+            WriteLine(b + " " + c );
+
+            int d = 10;
+            int e = ++d;
+            //Primeiro incrementa o valor da variável e depois atribui na variável d
             
             
             
             
+
+
+
+
+
+
+
 
 
 

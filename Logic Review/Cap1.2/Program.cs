@@ -180,19 +180,17 @@ namespace Cap1._2
             resulta = mu != ma;
             WriteLine(resulta);
             
+            //Operadores Lógicos: && : E , ||: OU, !: NÃO
 
-
-
-
-
-
-
-
-
-
-
-
-
+            bool c1 = 4 != 4;
+            WriteLine(c1);
+            bool c2 = (2 > 3) && (4 != 5);
+            WriteLine(c2);
+            bool c3 = (2 < 3) || (4 > 5);
+            WriteLine(c3);
+            bool pacoca = !(2 > 3) && (4 != 5);
+            WriteLine(pacoca);
+            
         }
     }
 }

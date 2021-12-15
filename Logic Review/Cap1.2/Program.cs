@@ -146,6 +146,20 @@ namespace Cap1._2
             WriteLine(result);
             //dessa forma nós conseguimos o resultado quebrado, que é o 2.5
             
+            
+            //Operadores Aritméticos:
+            // +, -, *, /, %
+
+            int resultado = 17 % 3;
+            WriteLine(resultado);
+            //resto da divisão
+            
+            //Leitura de dados pelo console
+            string[] words = ReadLine().Split(" ");
+            
+            string word1 = words[0];
+            string word2 = words[1];
+            string word3 = words[2];
 
 
 

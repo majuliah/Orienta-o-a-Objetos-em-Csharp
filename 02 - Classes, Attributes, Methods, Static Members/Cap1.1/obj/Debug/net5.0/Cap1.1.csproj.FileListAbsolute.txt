@@ -1,0 +1,16 @@
+C:\Users\ladyv\Documents\ultimatePOOcSharp\02 - Classes, Attributes, Methods, Static Members\Cap1.1\bin\Debug\net5.0\Cap1.1.exe
+C:\Users\ladyv\Documents\ultimatePOOcSharp\02 - Classes, Attributes, Methods, Static Members\Cap1.1\bin\Debug\net5.0\Cap1.1.deps.json
+C:\Users\ladyv\Documents\ultimatePOOcSharp\02 - Classes, Attributes, Methods, Static Members\Cap1.1\bin\Debug\net5.0\Cap1.1.runtimeconfig.json
+C:\Users\ladyv\Documents\ultimatePOOcSharp\02 - Classes, Attributes, Methods, Static Members\Cap1.1\bin\Debug\net5.0\Cap1.1.runtimeconfig.dev.json
+C:\Users\ladyv\Documents\ultimatePOOcSharp\02 - Classes, Attributes, Methods, Static Members\Cap1.1\bin\Debug\net5.0\Cap1.1.dll
+C:\Users\ladyv\Documents\ultimatePOOcSharp\02 - Classes, Attributes, Methods, Static Members\Cap1.1\bin\Debug\net5.0\ref\Cap1.1.dll
+C:\Users\ladyv\Documents\ultimatePOOcSharp\02 - Classes, Attributes, Methods, Static Members\Cap1.1\bin\Debug\net5.0\Cap1.1.pdb
+C:\Users\ladyv\Documents\ultimatePOOcSharp\02 - Classes, Attributes, Methods, Static Members\Cap1.1\obj\Debug\net5.0\Cap1.1.csproj.AssemblyReference.cache
+C:\Users\ladyv\Documents\ultimatePOOcSharp\02 - Classes, Attributes, Methods, Static Members\Cap1.1\obj\Debug\net5.0\Cap1.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ladyv\Documents\ultimatePOOcSharp\02 - Classes, Attributes, Methods, Static Members\Cap1.1\obj\Debug\net5.0\Cap1.1.AssemblyInfoInputs.cache
+C:\Users\ladyv\Documents\ultimatePOOcSharp\02 - Classes, Attributes, Methods, Static Members\Cap1.1\obj\Debug\net5.0\Cap1.1.AssemblyInfo.cs
+C:\Users\ladyv\Documents\ultimatePOOcSharp\02 - Classes, Attributes, Methods, Static Members\Cap1.1\obj\Debug\net5.0\Cap1.1.csproj.CoreCompileInputs.cache
+C:\Users\ladyv\Documents\ultimatePOOcSharp\02 - Classes, Attributes, Methods, Static Members\Cap1.1\obj\Debug\net5.0\Cap1.1.dll
+C:\Users\ladyv\Documents\ultimatePOOcSharp\02 - Classes, Attributes, Methods, Static Members\Cap1.1\obj\Debug\net5.0\ref\Cap1.1.dll
+C:\Users\ladyv\Documents\ultimatePOOcSharp\02 - Classes, Attributes, Methods, Static Members\Cap1.1\obj\Debug\net5.0\Cap1.1.pdb
+C:\Users\ladyv\Documents\ultimatePOOcSharp\02 - Classes, Attributes, Methods, Static Members\Cap1.1\obj\Debug\net5.0\Cap1.1.genruntimeconfig.cache

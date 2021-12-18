@@ -48,7 +48,15 @@
 
 ### Assembly é uma build, um DLL ou EXE da aplicação = agrupamento físico de classes relacionadas. O projeto pode ser dividido em subsistemas.
 
-### Aplicação é um sistema de assemblies relacionados
+### Aplicação é um sistema de assemblies relacionados.
+
+
+
+# Classes, Atributos, Métodos, Membros Estáticos 🤔
+
+
+
+
 
 
 

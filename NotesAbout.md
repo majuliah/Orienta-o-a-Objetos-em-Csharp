@@ -104,6 +104,8 @@
 
 ## MÉTODOS 🕵🏽‍♀️:
 
+#### Métodos são funções que fazemos dentro de uma classe. Ele é a ação daquele objeto em que estamos criando. Seus benefícios são muitos, como a delegação de regras, claridade do código e organização. Aqui a adaptação do código do triângulo, só que com os cálculos sendo feitos através de métodos:
+
 
 
 

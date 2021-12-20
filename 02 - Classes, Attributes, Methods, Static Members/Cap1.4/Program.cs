@@ -13,6 +13,7 @@ namespace Cap1._4
             Triangulo trianguloX, trianguloY;
             trianguloX = new Triangulo();
             trianguloY = new Triangulo();
+            
             double areaX, areaY;
             
             WriteLine("Entre com os três valores do triângulo X");

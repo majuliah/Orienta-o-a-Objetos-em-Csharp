@@ -54,6 +54,34 @@
 
 # Classes, Atributos, Métodos, Membros Estáticos 🤔
 
+## CLASSES👩🏽‍🚀:
+
+#### Classes são um tipo estruturado que podem ou não conter membros:
+
+- ### Atributos:  São dados da classe, características, campos, são os atributos.
+
+- ### Métodos:  Funções. São ações que uma classe pode executar. É o comportamento da classe.
+
+#### As classes podem ter outros recursos como:
+
+- ### Construtores;
+
+- ### Recarga;
+
+- ### Encapsulamento;
+
+- ### Herança;
+
+- ### Polimorfismo;
+
+#### Serão assuntos tratados futuramente. Voltando às classes:
+
+#### Classes são os nossos próprios tipos personalizados. Assim como double, int, float, ..., as classes também servem como tipos. Desse jeito, podemos criar nossas variáveis com os tipos que criamos:
+
+
+
+
+
 
 
 

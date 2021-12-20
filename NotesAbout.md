@@ -106,9 +106,11 @@
 
 #### Métodos são funções que fazemos dentro de uma classe. Ele é a ação daquele objeto em que estamos criando. Seus benefícios são muitos, como a delegação de regras, claridade do código e organização. Aqui a adaptação do código do triângulo, só que com os cálculos sendo feitos através de métodos:
 
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img5.png?raw=true)
 
+#### Com os métodos criados, podemos fazer a chamada no programa principal para o cálculo das áreas do triângulo:
 
-
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img6.png?raw=true)
 
 
 

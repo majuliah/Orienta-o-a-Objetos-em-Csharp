@@ -6,7 +6,7 @@
 
 
 
-## Um pouco sobre C# e .NET:
+## Um pouco sobre C# e .NET 👩🏽‍🚀:
 
 #### O .net é uma plataforma de desenvolvimento que suporta diferentes linguagens de programação, como o C#, por exemplo.
 
@@ -16,7 +16,7 @@
 
 
 
-## CLR:
+## CLR 🌐:
 
 #### Linguagens compiladas são aquelas que dependem de um compilador, específico para cada sistema operacional para ser compilada. C++ é um exemplo. Ela é compilada, e dessa forma é gerado um arquivo executável para a execução daquele programa. Uma vez executada, roda muito mais rápido. 
 
@@ -24,15 +24,11 @@
 
 #### Híbrida: Escrevemos um programa no código fonte da linguagem(tipo o c#) e o código passa por um processo de pré compilação, gerando um código intermediário, bytecode, chamada CIL Common Intermediate Language que é universal para quaisquer linguagens escritas na plataforma. O bytecode garante a integridade dos códigos escritos e ele pode ser rodado em diferentes sistemas, com diferentes plataformas de execução. A CLR é uma platafroma que interpreta a pré-compilação. 
 
-
-
-
-
 #### Escrevemos o código na linguagem fonte -> Programa é transferido pra pré-compilação que gera um código na linguagem intermediária (CIL) -> o CIL roda em cima de uma máquina virtual, a CLR -> Código Convertido em código de máquina e é reproduzido no sistema
 
 
 
-## ESTRUTURA DE ARQUIVOS:
+## ESTRUTURA DE ARQUIVOS 📚:
 
 #### Um projeto C# é uma solução. Ele tem a extensão .sln e é por ele que abrimos o projeto. 
 
@@ -52,9 +48,9 @@
 
 
 
-# Classes, Atributos, Métodos, Membros Estáticos 🤔
+# **Classes, Atributos, Métodos, Membros Estáticos** 🤔
 
-## CLASSES👩🏽‍🚀:
+## CLASSES 🥸:
 
 #### Classes são um tipo estruturado que podem ou não conter membros:
 
@@ -76,11 +72,23 @@
 
 #### Serão assuntos tratados futuramente. Voltando às classes:
 
-#### Classes são os nossos próprios tipos personalizados. Assim como double, int, float, ..., as classes também servem como tipos. Desse jeito, podemos criar nossas variáveis com os tipos que criamos:
+#### Classes são os nossos próprios tipos personalizados. Assim como ***double, int, float, ...***, as classes também servem como tipos. Desse jeito, podemos criar nossas variáveis com os tipos que criamos:
 
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img2.png?raw=true)
 
+#### Aqui temos a nossa classe triângulo que contém os atributos que iremos manipular para calcular a área de um triângulo qualquer. 
 
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img3.png?raw=true)
 
+#### No programa principal, nós criamos duas variáveis, triX e triY que são variáveis do tipo Triangulo, a classe que criamos. Sendo assim, as duas variáveis são referências à um objeto composto. Como a imagem a seguir mostra:
+
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img1.png?raw=true)
+
+#### O triânguloX e trianguloY que criamos, herdam todos os atributos da classe Triangulo que criamos. Assim podemos manipulas do jeito que queremos os tipos.
+
+#### Após criarmos as variáveis triX e triY, precisamos **INSTANCIAR** o objeto. É feito com o comando new:                        *triX = new Triangulo();*
+
+#### Dessa forma, nós estamos garantindo que os atributos da classe estejam realmente presentes nas variáveis que criamos, como a imagem ilustrativa das posições da memória. 
 
 
 

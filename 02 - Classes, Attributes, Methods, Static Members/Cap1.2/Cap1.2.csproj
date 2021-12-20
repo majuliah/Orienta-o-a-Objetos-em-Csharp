@@ -6,4 +6,8 @@
         <RootNamespace>Cap1._2</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Remove="Triangle.cs" />
+    </ItemGroup>
+
 </Project>

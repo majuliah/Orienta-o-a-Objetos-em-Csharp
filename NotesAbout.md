@@ -96,7 +96,9 @@
 
 #### Quando criamos uma variável, ela fica em uma área chamada stack, que é a área stack cria as variáveis estáticas conforme as declaramos no programa. Mas ao INSTANCIAR uma classe, precisamos alocar a variável em uma área da memória chamada heap. Cria um objeto composto com seus atributos herdados. A variável da stack conterá o endereço do objeto que está na heap, dessa forma: 
 
-#### O areaY é uma referência do objeto na heap:
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img4.png?raw=true)
+
+#### O areaY é uma referência do objeto na heap ^
 
 
 

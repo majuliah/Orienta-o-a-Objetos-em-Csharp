@@ -112,6 +112,22 @@
 
 ![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img6.png?raw=true)
 
+## ToString🦩:
+
+#### Toda classe no C# é uma subclasse de Object que é uma classe genérica. Ela possui os seguintes métodos:
+
+- #### GetType: retorna o tipo do objeto;
+
+- #### Equals: compara se o objeto é igual ao outro;
+
+- #### GetHashCode: retorna um código hash do objeto;
+
+- #### ToString: converte o objeto para string;
+
+  
+
+
+
 
 
 

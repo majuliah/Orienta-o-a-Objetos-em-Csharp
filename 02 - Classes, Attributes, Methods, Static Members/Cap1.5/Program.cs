@@ -13,9 +13,18 @@ namespace Cap1._5
             produto.Nome = ReadLine();
             produto.Quantidade = int.Parse(ReadLine());
             produto.Valor = double.Parse(ReadLine(), CultureInfo.InvariantCulture);
-            
             WriteLine("Dados do produto: " + produto);
             
+            WriteLine("Entre com os dados para ADICIONAR");
+            int qtde = int.Parse(ReadLine());
+            produto.Addicionar(qtde);
+            WriteLine("Dados do produto: " + produto);
+                        
+            WriteLine("Entre com os dados para REMOVER");
+            qtde = int.Parse(ReadLine());
+            produto.Remover(qtde);
+            WriteLine("Dados do produto: " + produto);
+
         }
     }
 }

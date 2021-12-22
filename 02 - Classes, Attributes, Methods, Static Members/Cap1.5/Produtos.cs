@@ -13,6 +13,16 @@ namespace Cap1._5
             return Valor * Quantidade;
         }
 
+        public void Addicionar(int quantidade)
+        {
+            Quantidade += quantidade;
+        }
+        
+        public void Remover(int quantidade)
+        {
+            Quantidade -= quantidade;
+        }
+
         public override string ToString()
         {
             return Nome + "$ " + Valor.ToString("F2", CultureInfo.InvariantCulture)

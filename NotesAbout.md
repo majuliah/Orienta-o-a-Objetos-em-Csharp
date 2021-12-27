@@ -125,6 +125,10 @@
 - #### ToString: converte o objeto para string;
 
   
+  
+  Quando colocarmos um objeto dentro de um Write, ele devolverá o objeto na forma de ToString, como definimos anteriormente.
+  
+  
 
 
 

@@ -130,11 +130,11 @@
 
 ![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img7.png?raw=true)
 
-#### Quando colocarmos um objeto dentro de um Write, ele devolverá o objeto na forma de ToString, como definimos anteriormente, dessa forma:
+#### Quando colocarmos o objeto dentro de um Write, ele devolverá o objeto na forma de ToString, como definimos anteriormente, dessa forma:
 
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img8.png?raw=true)
 
-
-
+#### O resultado sempre será a mensagem que colocamos no override ToString.
 
 
 

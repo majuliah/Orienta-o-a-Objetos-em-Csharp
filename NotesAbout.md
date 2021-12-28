@@ -136,7 +136,9 @@
 
 #### O resultado sempre será a mensagem que colocamos no override ToString.
 
-
+```
+' '  ""
+```
 
 
 

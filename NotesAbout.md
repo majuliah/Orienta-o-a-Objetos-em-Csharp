@@ -148,7 +148,7 @@
 
 
 
-
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img9.png?raw=true)
 
 1. #### Não utilizaremos o public para a criação da função, porque ela será usada dentro da própria classe; 
 

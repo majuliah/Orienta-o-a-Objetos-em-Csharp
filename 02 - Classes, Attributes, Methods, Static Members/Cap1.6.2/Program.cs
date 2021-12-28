@@ -1,29 +1,31 @@
-﻿using System.Diagnostics.Contracts;
-using System.Globalization;
+﻿using System.Globalization;
 using static System.Console;
 
-namespace Cap1._6._2
+namespace ConsoleApp1Cap1._6._2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            ALuno aluno = new ALuno();
-            string[] notas;
-
-            WriteLine("Entre com o nome e as três notas de um aluno:");
-            notas = ReadLine().Split(' ');
-            aluno.Nome = notas[0];
-            aluno.Nota1 = double.Parse(notas[1], CultureInfo.InvariantCulture);
-            aluno.Nota2 = double.Parse(notas[2], CultureInfo.InvariantCulture);
-            aluno.Nota3 = double.Parse(notas[3], CultureInfo.InvariantCulture);
+            Funcionario funcionario = new Funcionario();
+            string[] infos;
+            double porcento;
             
-            WriteLine($"{aluno.Nome} tem a nota {aluno.CalculaNota().ToString("F2", CultureInfo.InvariantCulture)}");
-
-            if(aluno.Aprovado())
-                WriteLine($"APROVADO!");
-            else
-                WriteLine($"REPROVADO! Falta {aluno.Reprovado().ToString($"F2",CultureInfo.InvariantCulture)} pontos para a aprovação");
+            WriteLine("Entre com o Nome, Salário e o Imposto");
+            infos = ReadLine().Split(' ');
+            funcionario.Nome = infos[0];
+            funcionario.Salario = double.Parse(infos[1], CultureInfo.InvariantCulture);
+            funcionario.Imposto = double.Parse(infos[2], CultureInfo.InvariantCulture);
+            
+            WriteLine($"{funcionario}");
+            
+            
+            WriteLine("Quantos porcento quer adicionar para aumento?");
+            porcento = double.Parse(ReadLine(), CultureInfo.InvariantCulture);
+            funcionario.AumentaSalario(porcento);
+            WriteLine($"Dados atualizados do {funcionario}");
+            
+            
         }
     }
 }

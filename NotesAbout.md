@@ -136,9 +136,28 @@
 
 #### O resultado sempre será a mensagem que colocamos no override ToString.
 
-```
-' '  ""
-```
+# MEMBROS ESTÁTICOS 😗
+
+### Até agora, vimos que as classes possuem membros e que estes membros podem ser *atributos* ou ***métodos()***. Porém, podemos  ter membros estáticos.
+
+#### Também conhecidos como membros de classe (método de classe ou atributo de classe -os que vimos até agora são de instância, como método e atributo de instância), são membros que fazem sentido independente do objeto. Isso significa que são chamados pelo próprio nome da classe e não precisam de objeto para serem chamados. Como exemplo: classes utilitárias são classes que fornecem operações simples que podem ser chamadas de forma isolada. Exemplo: Math.Sqrt
+
+#### Uma classe que só possui membros estáticos, pode ser uma classe estática. Porém classes estáticas não podem ser instanciadas. Uma classe estática SEMPRE dará o mesmo resultado, independentemente de objeto. 
+
+#### Vendo na prática, resolveremos um problema de três formas diferentes. A primeira é usando métodos estáticos na própria classe do Program.
+
+
+
+1. Não utilizaremos o public para a criação da função, porque ela será usada dentro da própria classe; 
+2. Teremos que colocar a função como estática, porque ela será chamada dentro da função estática. Não podemos chamar uma função não estática, dentro de uma mesma classe em uma função estática. Ambas tem de ser estáticas (cafusei hehe);
+3. Criamos a variável de PI dentro da classe program, para que o valor seja público em todo a classe, para que os métodos consigam acessá-la. Como ele será utilizado em uma função estática, antes do double precisamos definir que é uma variável estática.
+4.   
+
+
+
+ 
+
+
 
 
 

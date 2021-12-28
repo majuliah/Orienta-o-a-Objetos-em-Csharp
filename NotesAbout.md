@@ -148,10 +148,15 @@
 
 
 
-1. Não utilizaremos o public para a criação da função, porque ela será usada dentro da própria classe; 
-2. Teremos que colocar a função como estática, porque ela será chamada dentro da função estática. Não podemos chamar uma função não estática, dentro de uma mesma classe em uma função estática. Ambas tem de ser estáticas (cafusei hehe);
-3. Criamos a variável de PI dentro da classe program, para que o valor seja público em todo a classe, para que os métodos consigam acessá-la. Como ele será utilizado em uma função estática, antes do double precisamos definir que é uma variável estática.
-4.   
+
+
+1. #### Não utilizaremos o public para a criação da função, porque ela será usada dentro da própria classe; 
+
+2. #### Teremos que colocar a função como estática, porque ela será chamada dentro da função estática. Não podemos chamar uma função não estática, dentro de uma mesma classe em uma função estática. Ambas tem de ser estáticas (cafusei hehe);
+
+3. #### Criamos a variável de PI dentro da classe program, para que o valor seja público em todo a classe, para que os métodos consigam acessá-la. Como ele será utilizado em uma função estática, antes do double precisamos definir que é uma variável estática.
+
+   
 
 
 

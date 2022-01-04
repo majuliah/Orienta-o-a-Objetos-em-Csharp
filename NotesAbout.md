@@ -157,6 +157,12 @@
 3. #### Criamos a variável de PI dentro da classe program, para que o valor seja público em todo a classe, para que os métodos consigam acessá-la. Como ele será utilizado em uma função estática, antes do double precisamos definir que é uma variável estática.
 
    
+   
+   ### OUTRA FORMA DE FAZER:
+   
+   
+   
+   
 
 
 

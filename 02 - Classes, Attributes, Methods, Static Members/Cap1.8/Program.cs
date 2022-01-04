@@ -7,11 +7,10 @@ namespace Cap1._8
     {
         static void Main(string[] args)
         {
-            Dolar calcularDolar = new Dolar();
             WriteLine("Entre com o valor em reais para converter para dólar: ");
             double valor = double.Parse(ReadLine(), CultureInfo.InvariantCulture);
 
-            double resultado = calcularDolar.ConverterDolarEmReal(valor);
+            double resultado = Dolar.ConverterDolarEmReal(valor);
             WriteLine(resultado);
 
         }

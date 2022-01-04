@@ -170,7 +170,11 @@
 
 
 
-# Nós Moscada heheheehehheheh
+# CONSTRUTORES, THIS, SOBRECARGA E ENCAPSULAMENTO 🤯:
+
+### 
+
+ 
 
 
 

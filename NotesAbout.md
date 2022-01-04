@@ -158,11 +158,19 @@
 
    
    
-   ### OUTRA FORMA DE FAZER:
+   ### OUTRA FORMA DE FAZER 🧐:
+   
+   ![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img10.png?raw=true)
+   
+   #### Nós usamos a classe Dólar e criamos um método estático. Assim quando formos chamar no programa principal, nós só passamos a referência do nome da classe, e assim não é necessário instanciar um objeto. 
+   
+   ![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img11.png?raw=true)
    
    
-   
-   
+
+
+
+# Nós Moscada heheheehehheheh
 
 
 

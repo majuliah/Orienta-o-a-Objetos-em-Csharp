@@ -200,9 +200,23 @@
 
  ## ** Sintaxe alternativa para inicializar valores:
 
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img16.png?raw=true)
 
 
 
+## PALAVRA THIS😫:
+
+#### É uma referência ao próprio objeto. Ele diferencia atributos de variáveis locais, referencia outro constructor em um constructor e passar o próprio objeto como argumento de chamada de um método ou construtor. Aqui uns exemplos:
+
+## Exemplo 1:
+
+
+
+## Exemplo 2:
+
+
+
+#### Podemos também passar o próprio objeto como argumento na chamada de um método ou construtor. Mas isso é exemplo que será explicado mais à frente.
 
 
 

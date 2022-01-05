@@ -7,10 +7,31 @@ namespace Cap2._1
         public double Preco;
         public int Quantidade;
 
+
+
         public Produto()
         {
-            
+            Quantidade = 10;
         }
+        
+        public Produto(string Nome, double Preco) : this()
+        {
+            this.Nome = Nome;
+            this.Preco = Preco;
+            //usando o this, os atributos e métodos do Produto default
+            //serão herdados aqui. Então não seria necessário 
+            //setar o valor para Quantidade
+        }
+        
+        /*public Produto(string Nome, double Preco)
+        {
+            //esse this referencia o this do atributo
+            this.Nome = Nome; 
+            //esse nome o Nome do parâmetro do construtor
+            this.Preco = Preco;
+            Quantidade = 0;
+        }
+        */
         
         public Produto(string nome, double preco, int quantidade)
         {
@@ -18,17 +39,6 @@ namespace Cap2._1
             Preco = preco;
             Quantidade = quantidade;
         }
-
-        public Produto(string nome, double preco)
-        {
-            Nome = nome;
-            Preco = preco;
-            Quantidade = 10;
-            //a quantidade igual a 0 é dispensável, isso só mostra
-            //que podemos colocar qualquer valor para iniciar a quantidade
-            
-        }
-        
         
         
         public double ValorTotalEmEstoque() 

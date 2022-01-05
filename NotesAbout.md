@@ -178,7 +178,15 @@
 
 #### Operação que executa no momento da instanciação. Ele executa a partir da palavra reservada *new*. Ele é usado para exigir passagem de valores para parâmetros ou para iniciar o objeto com determinados valores. O construtor padrão é o construtor vazio, que a linguagem disponibiliza.
 
-####  
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img12.png?raw=true)
+
+####  Quando fazemos a instanciação dessa forma, o objeto criado receberá todos os seus atributos iniciais como nulos. Com os construtores, obrigamos a passagem de parâmetros para este objeto. 
+
+print13
+
+#### Ao criarmos um construtor informando os parâmetros dessa forma, obrigamos o programador a inserir os valores no momento em que instanciar o objeto. Dessa forma, passamos aos atributos os parâmetros do construtor. 
+
+####   
 
 
 

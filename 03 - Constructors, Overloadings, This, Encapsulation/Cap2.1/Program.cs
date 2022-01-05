@@ -8,18 +8,17 @@ namespace Cap2._1
         static void Main(string[] args)
         {
             Console.WriteLine("CONSTRUTORES! ");
-            
-            
-            Produto p = new Produto();
-            
-            
+
             Console.WriteLine("Entre os dados do produto:");
             Console.Write("Nome: ");
-            p.Nome = Console.ReadLine();
+            string nome = Console.ReadLine();
             Console.Write("Preço: ");
-            p.Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             Console.Write("Quantidade no estoque: ");
-            p.Quantidade = int.Parse(Console.ReadLine());
+            int quantidade = int.Parse(Console.ReadLine());
+
+            Produto p = new Produto(nome, preco ,quantidade);
+            
             Console.WriteLine();
             Console.WriteLine("Dados do produto: " + p);
             Console.WriteLine();
@@ -34,6 +33,8 @@ namespace Cap2._1
             p.RemoverProdutos(qte);
             Console.WriteLine();
             Console.WriteLine("Dados atualizados: " + p);
+            
+
         }
     }
 }

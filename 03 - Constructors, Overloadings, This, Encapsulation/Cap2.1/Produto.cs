@@ -13,6 +13,18 @@ namespace Cap2._1
             Preco = preco;
             Quantidade = quantidade;
         }
+
+        public Produto(string nome, double preco)
+        {
+            Nome = nome;
+            Preco = preco;
+            Quantidade = 10;
+            //a quantidade igual a 0 é dispensável, isso só mostra
+            //que podemos colocar qualquer valor para iniciar a quantidade
+            
+        }
+        
+        
         
         public double ValorTotalEmEstoque() 
         {

@@ -182,9 +182,29 @@
 
 ####  Quando fazemos a instanciação dessa forma, o objeto criado receberá todos os seus atributos iniciais como nulos. Com os construtores, obrigamos a passagem de parâmetros para este objeto. 
 
-print13
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img13.png?raw=true)
 
 #### Ao criarmos um construtor informando os parâmetros dessa forma, obrigamos o programador a inserir os valores no momento em que instanciar o objeto. Dessa forma, passamos aos atributos os parâmetros do construtor. 
+
+
+
+## SOBRECARGA😶:
+
+#### Recurso da classe que permite sobrescrever um método para receber diferentes parâmetros. Como o exemplo a seguir:
+
+img14
+
+#### Quando executamos o programa, ele somente pedirá os dois parâmetros passados na sobrecarga, e a quantidade é a que está estabelecida no construtor criado. 
+
+img15 
+
+
+
+
+
+
+
+
 
 ####   
 

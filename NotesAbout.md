@@ -222,6 +222,12 @@
 
 
 
+## ENCAPSULAMENTO💊:
+
+
+
+
+
  
 
 

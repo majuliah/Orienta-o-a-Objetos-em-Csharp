@@ -210,11 +210,11 @@
 
 ## Exemplo 1:
 
-
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img17.png?raw=true)
 
 ## Exemplo 2:
 
-
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img18.png?raw=true)
 
 #### Podemos também passar o próprio objeto como argumento na chamada de um método ou construtor. Mas isso é exemplo que será explicado mais à frente.
 

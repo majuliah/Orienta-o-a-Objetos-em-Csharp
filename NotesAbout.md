@@ -192,21 +192,15 @@
 
 #### Recurso da classe que permite sobrescrever um método para receber diferentes parâmetros. Como o exemplo a seguir:
 
-img14
+![img14](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img14.png?raw=true)
 
 #### Quando executamos o programa, ele somente pedirá os dois parâmetros passados na sobrecarga, e a quantidade é a que está estabelecida no construtor criado. 
 
-img15 
+![img15](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img15.png?raw=true) 
+
+ ## ** Sintaxe alternativa para inicializar valores:
 
 
-
-
-
-
-
-
-
-####   
 
 
 

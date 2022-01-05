@@ -17,7 +17,15 @@ namespace Cap2._1
             //Console.Write("Quantidade no estoque: ");
             //int quantidade = int.Parse(Console.ReadLine());
 
-            Produto p = new Produto(nome, preco);
+            Produto p = new Produto()
+            {
+                Nome = "TV",
+                Preco = 900.00,
+                Quantidade = 0
+            };
+
+            Produto p3 = new Produto { Nome = "TV", Preco = 900.00, Quantidade = 10 };
+            
             
             Console.WriteLine();
             Console.WriteLine("Dados do produto: " + p);
@@ -26,7 +34,7 @@ namespace Cap2._1
             int qte = int.Parse(Console.ReadLine());
             p.AdicionarProdutos(qte);
             Console.WriteLine();
-            Console.WriteLine("Dados atualizados: " + p);
+            Console.WriteLine("Dados atualizados: " + p3);
             Console.WriteLine();
             Console.Write("Digite o número de produtos a ser removido do estoque: ");
             qte = int.Parse(Console.ReadLine());

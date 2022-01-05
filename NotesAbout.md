@@ -174,7 +174,17 @@
 
 
 
-### 
+## CONSTRUTORES🚜:
+
+#### Operação que executa no momento da instanciação. Ele executa a partir da palavra reservada *new*. Ele é usado para exigir passagem de valores para parâmetros ou para iniciar o objeto com determinados valores. O construtor padrão é o construtor vazio, que a linguagem disponibiliza.
+
+####  
+
+
+
+
+
+
 
  
 

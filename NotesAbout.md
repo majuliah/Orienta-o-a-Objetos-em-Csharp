@@ -271,15 +271,33 @@
 
 ![img28](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img28.png?raw=true)
 
-## Auto Properties:
+## Auto Properties🦿 :
 
 #### As auto properties servem para otimizar as linhas de código usadas acima, podendo ser feitas dessa forma:
 
-img29
+![img29](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img29.png?raw=true)
 
 #### Porém, os atributos em que precisamos de uma lógica, como a do nome por exemplo, não podem usar esta implementação, sendo uma propertie manual.
 
- 
+## Ordem sugerida para estrutura do código🐫 :
+
+1. #### Atributos Privados;
+
+2. #### Auto Properties;
+
+3. #### Constructors;
+
+4. #### Propriedades Costumizadas;
+
+5. #### Outros métodos da classe;
+
+   #### 
+
+##  Modificadores de Acesso🦥 :
+
+#### Pode ser encontrado com melhores definições [neste](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/access-modifiers) link.
+
+
 
 
 

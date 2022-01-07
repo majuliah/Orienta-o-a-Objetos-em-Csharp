@@ -28,6 +28,17 @@ namespace Cap2._2
                     _nome = value;
             }
         }
+
+        public int Quantidade
+        {
+            get { return _quantidade; }
+        }
+
+        public double Preco
+        {
+            get { return _preco; }
+        }
+        
         
         public double GetPreco()
         {

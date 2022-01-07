@@ -46,8 +46,6 @@
 
 ### Aplicação é um sistema de assemblies relacionados.
 
-
-
 # **Classes, Atributos, Métodos, Membros Estáticos** 🤔
 
 ## CLASSES 🥸:
@@ -220,9 +218,9 @@
 
 
 
-
-
 ## ENCAPSULAMENTO💊:
+
+#### O encapsulamento é 
 
 
 

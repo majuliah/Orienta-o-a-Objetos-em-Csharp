@@ -263,9 +263,21 @@
 
 #### Agora veremos exemplos:
 
+![img26](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img26.png?raw=true)
 
+![img27](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img27.png?raw=true)
 
+#### Assim o código fica mais legível, desta froma:
 
+![img28](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img28.png?raw=true)
+
+## Auto Properties:
+
+#### As auto properties servem para otimizar as linhas de código usadas acima, podendo ser feitas dessa forma:
+
+img29
+
+#### Porém, os atributos em que precisamos de uma lógica, como a do nome por exemplo, não podem usar esta implementação, sendo uma propertie manual.
 
  
 

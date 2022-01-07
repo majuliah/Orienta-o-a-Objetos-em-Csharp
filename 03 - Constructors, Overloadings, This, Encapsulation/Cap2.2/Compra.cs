@@ -4,8 +4,9 @@ namespace Cap2._2
     public class Compra
     {
         private string _nome;
-        private double _preco;
-        private int _quantidade;
+        public double Preco { get; private set; }
+        public double Quantidade { get; private set; }
+        
 
         public Compra()
         {
@@ -14,8 +15,8 @@ namespace Cap2._2
         public Compra(string Nome, double Preco, int Quantidade)
         {
             _nome = Nome;
-            _preco = Preco;
-            _quantidade = Quantidade;
+            this.Preco = Preco;
+            this.Quantidade = Quantidade;
         }
 
 
@@ -28,42 +29,23 @@ namespace Cap2._2
                     _nome = value;
             }
         }
-
-        public int Quantidade
-        {
-            get { return _quantidade; }
-        }
-
-        public double Preco
-        {
-            get { return _preco; }
-        }
         
-        
-        public double GetPreco()
-        {
-            return _preco;
-        }
-        public int GetQuantidade()
-        {
-            return _quantidade;
-        }
         
         public double ValorTotalEmEstoque() {
-            return _preco * _quantidade;
+            return Preco * Quantidade;
         }
         public void AdicionarProdutos(int quantidade) {
-            _quantidade += quantidade;
+            Quantidade += quantidade;
         }
         public void RemoverProdutos(int quantidade) {
-            _quantidade -= quantidade;
+            Quantidade -= quantidade;
         }
         public override string ToString() {
             return _nome
                    + ", $ "
-                   + _preco.ToString("F2", CultureInfo.InvariantCulture)
+                   + Preco.ToString("F2", CultureInfo.InvariantCulture)
                    + ", "
-                   + _quantidade
+                   + Quantidade
                    + " unidades, Total: $ "
                    + ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture);
         }

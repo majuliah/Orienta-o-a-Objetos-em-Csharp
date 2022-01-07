@@ -9,10 +9,23 @@ namespace Cap2._2
         {
             WriteLine("E.N.C.A.P.S.U.L.A.M.E.N.T.O");
 
-            Compra compra = new Compra();
-            compra.Nome = "CELULAR";
-            compra.Preco = 700.00;
-            compra.Quantidade = 7;
+            
+            
+            Compra compra = new Compra("TV", 900.00, 9);
+            compra.SetNome("CELULAR");
+            WriteLine(compra.GetNome());
+            
+            
+            
+            WriteLine(compra.GetNome());
+            WriteLine(compra.GetPreco());
+            WriteLine(compra.GetQuantidade());
+            
+            
+            
+            
+            
+            
             
             
 

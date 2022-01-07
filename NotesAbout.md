@@ -230,11 +230,29 @@
 
 #### Primeiro vamos fazer um encapsulamento para que os atributos não possam ser usados em outras classes:
 
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img19.png?raw=true)
 
+#### Setando os atributos para private, não conseguimos utilizá-los em outras partes do programa, como por exemplo na main:
 
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img20.png?raw=true)
 
+#### Quando usamos atributos PRIVADOS, a convenção de nomenclatura muda para:
 
+img 21
 
+#### Sendo dessa forma, para conseguirmos acesso ao atributo em outras classes, seria necessário a criação de um método para acesso dessas infromações: 
+
+img 22
+
+#### E dessa forma conseguiríamos ter acesso aos atributos através dos métodos no main program: 
+
+img 23
+
+#### Agora para fazer a ALTERAÇÃO desses objetos, nós usaremos o método set:
+
+img24
+
+#### 
 
 
 

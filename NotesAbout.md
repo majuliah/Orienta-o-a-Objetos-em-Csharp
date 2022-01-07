@@ -238,23 +238,27 @@
 
 #### Quando usamos atributos PRIVADOS, a convenção de nomenclatura muda para:
 
-img 21
+![img 21](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img21.png?raw=true)
 
 #### Sendo dessa forma, para conseguirmos acesso ao atributo em outras classes, seria necessário a criação de um método para acesso dessas infromações: 
 
-img 22
+![img 22](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img22.png?raw=true)
 
 #### E dessa forma conseguiríamos ter acesso aos atributos através dos métodos no main program: 
 
-img 23
+![img 23](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img23.png?raw=true)
 
 #### Agora para fazer a ALTERAÇÃO desses objetos, nós usaremos o método set:
 
-img24
+![img24](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img24.png?raw=true)
 
-#### 
+#### Também é possível criarmos regras dentro dos métodos. Por exemplo, só é possível alterar o nome se o número de caracteres for maior que 1 e não for nulo:
 
+img25
 
+#### Dessa forma, se quisermos somente consultar os atributos e não permitir a alteração, simplesmente não se cria o método de alterar. 
+
+## Implementação Manual✍🏽: 
 
  
 

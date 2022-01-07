@@ -220,7 +220,9 @@
 
 ## ENCAPSULAMENTO💊:
 
-#### O encapsulamento é 
+#### 
+
+
 
 
 

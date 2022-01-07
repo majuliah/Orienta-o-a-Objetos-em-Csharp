@@ -12,13 +12,11 @@ namespace Cap2._2
             
             
             Compra compra = new Compra("TV", 900.00, 9);
-            compra.SetNome("CELULAR");
-            WriteLine(compra.GetNome());
+
+            compra.Nome = "TV 8K";
+            WriteLine(compra.Nome);            
             
-            
-            
-            WriteLine(compra.GetNome());
-            WriteLine(compra.GetPreco());
+
             WriteLine(compra.GetQuantidade());
             
             

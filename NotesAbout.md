@@ -72,15 +72,15 @@
 
 #### Classes são os nossos próprios tipos personalizados. Assim como ***double, int, float, ...***, as classes também servem como tipos. Desse jeito, podemos criar nossas variáveis com os tipos que criamos:
 
-![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img2.png?raw=true)
+![img1](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img2.png?raw=true)
 
 #### Aqui temos a nossa classe triângulo que contém os atributos que iremos manipular para calcular a área de um triângulo qualquer. 
 
-![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img3.png?raw=true)
+![img2](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img3.png?raw=true)
 
 #### No programa principal, nós criamos duas variáveis, triX e triY que são variáveis do tipo Triangulo, a classe que criamos. Sendo assim, as duas variáveis são referências à um objeto composto. Como a imagem a seguir mostra:
 
-![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img1.png?raw=true)
+![img3](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img1.png?raw=true)
 
 #### O triânguloX e trianguloY que criamos, herdam todos os atributos da classe Triangulo que criamos. Assim podemos manipulas do jeito que queremos os tipos.
 
@@ -94,7 +94,7 @@
 
 #### Quando criamos uma variável, ela fica em uma área chamada stack, que é a área stack cria as variáveis estáticas conforme as declaramos no programa. Mas ao INSTANCIAR uma classe, precisamos alocar a variável em uma área da memória chamada heap. Cria um objeto composto com seus atributos herdados. A variável da stack conterá o endereço do objeto que está na heap, dessa forma: 
 
-![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img4.png?raw=true)
+![img4](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img4.png?raw=true)
 
 #### O areaY é uma referência do objeto na heap ^
 
@@ -104,11 +104,11 @@
 
 #### Métodos são funções que fazemos dentro de uma classe. Ele é a ação daquele objeto em que estamos criando. Seus benefícios são muitos, como a delegação de regras, claridade do código e organização. Aqui a adaptação do código do triângulo, só que com os cálculos sendo feitos através de métodos:
 
-![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img5.png?raw=true)
+![img5](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img5.png?raw=true)
 
 #### Com os métodos criados, podemos fazer a chamada no programa principal para o cálculo das áreas do triângulo:
 
-![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img6.png?raw=true)
+![img6](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img6.png?raw=true)
 
 ## ToString🦩:
 
@@ -126,11 +126,11 @@
 
 #### Para fazermos a concatenação das informações e deixar uma mensagem automática para ser usada sempre que o objeto for chamado, usaremos a ToString:
 
-![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img7.png?raw=true)
+![img7](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img7.png?raw=true)
 
 #### Quando colocarmos o objeto dentro de um Write, ele devolverá o objeto na forma de ToString, como definimos anteriormente, dessa forma:
 
-![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img8.png?raw=true)
+![img8](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img8.png?raw=true)
 
 #### O resultado sempre será a mensagem que colocamos no override ToString.
 
@@ -146,7 +146,7 @@
 
 
 
-![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img9.png?raw=true)
+![img9](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img9.png?raw=true)
 
 1. #### Não utilizaremos o public para a criação da função, porque ela será usada dentro da própria classe; 
 
@@ -158,15 +158,12 @@
    
    ### OUTRA FORMA DE FAZER 🧐:
    
-   ![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img10.png?raw=true)
+   ![img10](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img10.png?raw=true)
    
    #### Nós usamos a classe Dólar e criamos um método estático. Assim quando formos chamar no programa principal, nós só passamos a referência do nome da classe, e assim não é necessário instanciar um objeto. 
    
-   ![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img11.png?raw=true)
+   ![img11](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img11.png?raw=true)
    
-   
-
-
 
 # CONSTRUTORES, THIS, SOBRECARGA E ENCAPSULAMENTO 🤯:
 
@@ -176,11 +173,11 @@
 
 #### Operação que executa no momento da instanciação. Ele executa a partir da palavra reservada *new*. Ele é usado para exigir passagem de valores para parâmetros ou para iniciar o objeto com determinados valores. O construtor padrão é o construtor vazio, que a linguagem disponibiliza.
 
-![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img12.png?raw=true)
+![img12](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img12.png?raw=true)
 
 ####  Quando fazemos a instanciação dessa forma, o objeto criado receberá todos os seus atributos iniciais como nulos. Com os construtores, obrigamos a passagem de parâmetros para este objeto. 
 
-![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img13.png?raw=true)
+![img13](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img13.png?raw=true)
 
 #### Ao criarmos um construtor informando os parâmetros dessa forma, obrigamos o programador a inserir os valores no momento em que instanciar o objeto. Dessa forma, passamos aos atributos os parâmetros do construtor. 
 
@@ -198,7 +195,7 @@
 
  ## ** Sintaxe alternativa para inicializar valores:
 
-![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img16.png?raw=true)
+![img16](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img16.png?raw=true)
 
 
 
@@ -208,11 +205,11 @@
 
 ## Exemplo 1:
 
-![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img17.png?raw=true)
+![img17](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img17.png?raw=true)
 
 ## Exemplo 2:
 
-![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img18.png?raw=true)
+![img18](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img18.png?raw=true)
 
 #### Podemos também passar o próprio objeto como argumento na chamada de um método ou construtor. Mas isso é exemplo que será explicado mais à frente.
 
@@ -230,11 +227,11 @@
 
 #### Primeiro vamos fazer um encapsulamento para que os atributos não possam ser usados em outras classes:
 
-![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img19.png?raw=true)
+![img19](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img19.png?raw=true)
 
 #### Setando os atributos para private, não conseguimos utilizá-los em outras partes do programa, como por exemplo na main:
 
-![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img20.png?raw=true)
+![img20](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img20.png?raw=true)
 
 #### Quando usamos atributos PRIVADOS, a convenção de nomenclatura muda para:
 
@@ -254,11 +251,21 @@
 
 #### Também é possível criarmos regras dentro dos métodos. Por exemplo, só é possível alterar o nome se o número de caracteres for maior que 1 e não for nulo:
 
-img25
+![img25](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img25.png?raw=true)
 
 #### Dessa forma, se quisermos somente consultar os atributos e não permitir a alteração, simplesmente não se cria o método de alterar. 
 
-## Implementação Manual✍🏽: 
+## Implementação Através das Properties 🦾: 
+
+#### As PROPERTIES são formas de automatizar o encapsulamento. As properties são uma forma de usarmos atributos mas com comportamentos de métodos:
+
+### Uma propriedade é um membro que fornece um mecanismo, uma forma flexível para ler, gravar ou calcular o valor de um campo particular. Podem ser usadas como atributos públicos mas na verdade são métodos especiais, conhecidos como acessadores. Isso permite que os dados sejam acessados facilmente e ainda ajuda a promover a segurança e a flexibilidade dos métodos. 
+
+#### Agora veremos exemplos:
+
+
+
+
 
  
 

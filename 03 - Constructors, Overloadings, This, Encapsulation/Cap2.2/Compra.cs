@@ -18,10 +18,17 @@ namespace Cap2._2
             _quantidade = Quantidade;
         }
 
-        public string GetNome()
+
+        public string Nome
         {
-            return _nome;
+            get { return _nome; }
+            set
+            {
+                if (value != null && value.Length > 1)
+                    _nome = value;
+            }
         }
+        
         public double GetPreco()
         {
             return _preco;
@@ -30,13 +37,6 @@ namespace Cap2._2
         {
             return _quantidade;
         }
-
-        public void SetNome(string nome)
-        {
-            if (nome != null && nome.Length > 1)
-                _nome = nome;
-        }
-        
         
         public double ValorTotalEmEstoque() {
             return _preco * _quantidade;

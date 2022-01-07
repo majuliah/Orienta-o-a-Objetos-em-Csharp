@@ -220,7 +220,17 @@
 
 ## ENCAPSULAMENTO💊:
 
-#### 
+#### É um princípio que consiste em esconder detalhes de implementação, deixando apenas operações seguras e que não interfiram diretamente no código. O objeto deve SEMPRE estar em um estado consistente e a classe é responsável por garantir isso. O usuário somente tem acesso a recursos limitados, e os recursos de lógica e processamento ficam encapsulados, protegidos. Uma analogia é um aparelho de rádio. O usuário somente tem acesso aos botões e não aos circuitos internos que são cruciais para o funcionamento do sistema 😏. Nós somente temos acessos à operações básicas para utilizar o aparelho de forma segura. Temos algumas maneiras de explicar o encapsulamento:
+
+## Implementação Manual✍🏽: 
+
+- #### Todo atributo é definido como PRIVATE;
+
+- #### O método GET e SET são utilizados nos atributos, sempre respeitando a regra de negócio;
+
+#### Primeiro vamos fazer um encapsulamento para que os atributos não possam ser usados em outras classes:
+
+
 
 
 

@@ -3,9 +3,20 @@ namespace Cap2._2
 {
     public class Compra
     {
-        public string Nome;
-        public double Preco;
-        public int Quantidade;
+        private string Nome;
+        private double Preco;
+        private int Quantidade;
+
+        public Compra()
+        {
+            
+        }
+        public Compra(string Nome, double Preco, int Quantidade)
+        {
+            this.Nome = Nome;
+            this.Preco = Preco;
+            this.Quantidade = Quantidade;
+        }
         public double ValorTotalEmEstoque() {
             return Preco * Quantidade;
         }

@@ -19,9 +19,19 @@ namespace Cap2._3
             SaldoConta = saldoConta;
         }
 
+        public void Saque(double quantia)
+        {
+            SaldoConta -= quantia + 5.0;
+        }
+
+        public void Deposito(double quantia)
+        {
+            SaldoConta += quantia;
+        }
+
         public override string ToString()
         {
-            return $"Conta: {NumeroConta} + \n + Titular: {NomeTitular} + \n + Saldo Total: {SaldoConta.ToString("F2", CultureInfo.InvariantCulture)}";
+            return $"Conta: {NumeroConta} \n Titular: {NomeTitular}  \n  Saldo Total: {SaldoConta.ToString("F2", CultureInfo.InvariantCulture)}";
         }
     }
 }

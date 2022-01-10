@@ -6,7 +6,7 @@ namespace Cap2._3
     {
         static void Main(string[] args)
         {
-
+            
         }
     }
 }

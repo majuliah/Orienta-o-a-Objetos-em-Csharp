@@ -1,40 +1,27 @@
-﻿namespace Cap2._3
+﻿using System.Globalization;
+
+namespace Cap2._3
 {
     public class Conta
     {
-        private string _nome;
         public string NumeroConta { get; private set; }
-        public double ValorNaConta { get; private set; }
+        public string NomeTitular { get; set; }
+        public double SaldoConta { get; private set; }
 
-        public Conta()
+        public Conta(string numeroConta, string nomeTitular)
         {
-            ValorNaConta = 0;
-        }
-        
-        public Conta(string nome, string numeroConta, double valorNaConta) : this()
-        {
-            nome = _nome;
             numeroConta = NumeroConta;
+            nomeTitular = NomeTitular;
         }
-        public string Nome
+
+        public Conta(string nomeTitular, string numeroConta, double saldoConta) : this(numeroConta, nomeTitular)
         {
-             get { return _nome; }
-             set
-             {
-                 if (value != null && value.Length > 2)
-                     _nome = value;
-             }
+            SaldoConta = saldoConta;
         }
-        public void ValorSaque(double valorRetirado)
+
+        public override string ToString()
         {
-            ValorNaConta -=  valorRetirado - 5.0;
+            return $"Conta: {NumeroConta} + \n + Titular: {NomeTitular} + \n + Saldo Total: {SaldoConta.ToString("F2", CultureInfo.InvariantCulture)}";
         }
-        
-        public void ValorDeposito(double valorAdicionado)
-        {
-            ValorNaConta += valorAdicionado;
-        }
-        
-        
     }
 }

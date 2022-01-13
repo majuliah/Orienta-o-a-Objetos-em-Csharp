@@ -291,11 +291,17 @@
 
 5. #### Outros métodos da classe;
 
-   #### 
+   
 
 ##  Modificadores de Acesso🦥 :
 
 #### Pode ser encontrado com melhores definições [neste](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/access-modifiers) link.
+
+
+
+# COMPORTAMENTO DE MEMÓRIAS, LISTS E ARRAYS:
+
+
 
 
 

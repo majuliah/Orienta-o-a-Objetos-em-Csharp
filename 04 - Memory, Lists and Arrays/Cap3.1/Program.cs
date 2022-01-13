@@ -1,4 +1,4 @@
-﻿using System;
+﻿using static System.Console;
 
 namespace Cap3._1
 {
@@ -6,7 +6,7 @@ namespace Cap3._1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            WriteLine("Hello World!");
         }
     }
 }

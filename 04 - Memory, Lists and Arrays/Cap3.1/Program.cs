@@ -16,6 +16,16 @@ namespace Cap3._1
             int Y = X;
             
             WriteLine("O valor de Y é " + Y);
+
+            
+            //Utilizando Structs;
+
+            Point ponto;
+            ponto.L = 12;
+            ponto.S = 13;
+            
+            WriteLine(ponto);
+            
         }
     }
 }

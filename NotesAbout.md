@@ -311,6 +311,12 @@
 
 ![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img31.png?raw=true)
 
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img33.png?raw=true)
+
+### Nós também podemos criar os nossos próprios tipos. Eles são bem parecidos com as classes, mas se comportam como Value Types e precisam da declaração Structs no lugar do class:
+
+
+
 
 
 

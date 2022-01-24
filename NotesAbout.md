@@ -297,9 +297,19 @@
 
 #### Pode ser encontrado com melhores definições [neste](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/access-modifiers) link.
 
-
-
 # COMPORTAMENTO DE MEMÓRIAS, LISTS E ARRAYS 😁:
+
+#### Tipos por referência ou Reference Types são valores que aceitam null, e eles APONTAM para um mesmo lugar na memória. A stack aponta para uma referência na heap. Assim:
+
+
+
+#### Agora os Value Types, ou tipos valores ou Structs são CÓPIAS. As variáveis realizam uma CÓPIA do valor. Os tipos valor no C# são os primitivos, string, double, float, etc, etc. Assim: 
+
+
+
+
+
+
 
 
 

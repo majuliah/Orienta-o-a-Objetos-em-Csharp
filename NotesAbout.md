@@ -337,7 +337,9 @@
 
 #### Uma variável declarada mas não inicializada não é acessada, porque é necessário primeiro atribuir valores a ela.
 
+### Aqui alguns comparativos entre Classes e Structs:
 
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img36.png?raw=true)
 
 
 

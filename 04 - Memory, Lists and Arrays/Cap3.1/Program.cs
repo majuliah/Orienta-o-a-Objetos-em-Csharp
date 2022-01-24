@@ -1,4 +1,5 @@
-﻿using static System.Console;
+﻿using System;
+using static System.Console;
 
 namespace Cap3._1
 {
@@ -26,6 +27,17 @@ namespace Cap3._1
             
             WriteLine(ponto);
             
+            // valores nulos
+
+            double naoNulo = null;
+            //não pode nulo
+            Nullable<double> podeNull = null;
+            //uma forma de dizer que a variável do tipo double pode ser null
+            double? podeNullTambem = null;
+            //o ponto de interrogação deixa a necessidade de entrar com
+            //o valor opcional, portanto aceita null
+
+
         }
     }
 }

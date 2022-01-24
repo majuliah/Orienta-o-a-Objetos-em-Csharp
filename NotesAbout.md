@@ -343,6 +343,36 @@
 
 
 
+## Garbage Collector vs Escopo Local🦢:
+
+## Garbage Collector:
+
+#### Ele é responsável por automatizar o gerenciamento de memória. Monitora a memória HEAP e desaloca objetos que não estão sendo utilizados. 
+
+#### Quando um objeto perde sua referência, o garbage collector o desaloca em um momento futuro, otimizando a nossa aplicação.
+
+## Escopo Local:
+
+#### Assim que uma variável é criada em um escopo, um de if, por exemplo, assim que o loop deixar de ser verdadeiro, a variável será descartada e deixará de existir. 
+
+
+
+Rever a aula 67, parte de métodos com escopo local;
+
+## NULLABLE😶:
+
+#### Geralmente utilizamos nullables para dados e parâmetros opcionais, mas quando usamos structs(que não recebem nulo).
+
+
+
+
+
+
+
+
+
+####  
+
 
 
 

@@ -301,9 +301,15 @@
 
 #### Tipos por referência ou Reference Types são valores que aceitam null, e eles APONTAM para um mesmo lugar na memória. A stack aponta para uma referência na heap. Assim:
 
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img30.png?raw=true)
 
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img32.png?raw=true)
+
+#### No caso do null, a memória seria alocada mas com nenhum valor preenchido. 
 
 #### Agora os Value Types, ou tipos valores ou Structs são CÓPIAS. As variáveis realizam uma CÓPIA do valor. Os tipos valor no C# são os primitivos, string, double, float, etc, etc. Assim: 
+
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img31.png?raw=true)
 
 
 

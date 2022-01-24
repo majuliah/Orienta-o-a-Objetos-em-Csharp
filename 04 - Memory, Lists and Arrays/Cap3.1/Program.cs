@@ -11,9 +11,11 @@ namespace Cap3._1
             
             p2 = p1;
             p3 = null;
+
+            int X = 30;
+            int Y = X;
             
-            
-            WriteLine("");
+            WriteLine("O valor de Y é " + Y);
         }
     }
 }

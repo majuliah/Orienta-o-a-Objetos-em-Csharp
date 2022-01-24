@@ -363,6 +363,24 @@ Rever a aula 67, parte de métodos com escopo local;
 
 #### Geralmente utilizamos nullables para dados e parâmetros opcionais, mas quando usamos structs(que não recebem nulo).
 
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img37.png?raw=true)
+
+### Temos 4 funções para trabalhar com nulos:
+
+- #### GetValueOrDefault🪢:
+
+  #### Ela pega o valor da variável, e se não houver valor, ela pega o valor padrão. Em uma variável declarada como null, por exemplo a podeNull, ele retornará o valor zero, porque o valor default de double é zero.
+
+  #### Se a variável tiver um valor, ele retorna o valor da variável.
+
+  
+
+- #### HasValue
+
+- #### Value
+
+- 
+
 
 
 

@@ -27,6 +27,7 @@ namespace Cap3._1
             
             WriteLine(ponto);
             
+            
             // valores nulos
 
             double naoNulo = null;
@@ -36,8 +37,38 @@ namespace Cap3._1
             double? podeNullTambem = null;
             //o ponto de interrogação deixa a necessidade de entrar com
             //o valor opcional, portanto aceita null
+            double? temValor = 10.2;
+            
+            WriteLine(@$"
+                        Imprimindo a variável podeNull: {podeNull.Value}
+                        Imprimindo a variável temValor: {temValor.Value}
+                       ");
+            
+            WriteLine(@$"
+                        Imprimindo a variável podeNull: {podeNull.HasValue}
+                        Imprimindo a variável temValor: {temValor.HasValue}
+                       ");
+            
+            WriteLine(@$"
+                        Imprimindo a variável podeNull: {podeNull.GetValueOrDefault()}
+                        Imprimindo a variável temValor: {temValor.GetValueOrDefault()}
+                       ");
+            
+            
+            
+            //Operador de coalescência nula:
+            //Quer dizer que fazemos uma verificação. Se o valor for
+            //nulo, então atribuímos a ele outro valor, dessa forma:
 
-
+            double? numeroNulo = null;
+            double escolheSeEhNulo = numeroNulo ?? 2.3;
+            //se o numeroNulo for nullo então a variável escolheseEhNulo 
+            //passa a valer 2.3
+            
+            WriteLine(@$"
+                        Imprimindo a variável numeroNulo: {numeroNulo.GetValueOrDefault()}
+                        Imprimindo a variável scolheSeEhNulo: {escolheSeEhNulo}
+                       ");
         }
     }
 }

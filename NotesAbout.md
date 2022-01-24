@@ -315,6 +315,34 @@
 
 ### Nós também podemos criar os nossos próprios tipos. Eles são bem parecidos com as classes, mas se comportam como Value Types e precisam da declaração Structs no lugar do class:
 
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img34.png?raw=true)
+
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img35.png?raw=true)
+
+#### Os structs são parecidos com classes, mas nós não precisamos instanciar, embora seja perfeitamente possível. Apenas o Point ponto é capaz de criar os espaços de memória na STACK. Eles se parecem com classes mas se comportam como value types, justamente por manipularem memória da Stack e não da Heap. 
+
+
+
+## Agora quanto a valores padrão:👻 
+
+#### Quando alocamos com o new, QUALQUER tipo de valor estruturado, seja classe, struct ou array, são atribuídos valores vazios a eles, estes vazios são valores default:
+
+- ### Números: 0 (zero)
+
+- ### Bool: false;
+
+- ### Char: caractere código 0(zero) - não o número 0(zero), mas o 0(zero) de bit;
+
+- ### Object: null;
+
+#### Uma variável declarada mas não inicializada não é acessada, porque é necessário primeiro atribuir valores a ela.
+
+
+
+
+
+
+
 
 
 

@@ -373,13 +373,29 @@ Rever a aula 67, parte de métodos com escopo local;
 
   #### Se a variável tiver um valor, ele retorna o valor da variável.
 
-  
+  ![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img38.png?raw=true)
 
 - #### HasValue
 
+#### Retorna true ou false, pois ela verifica de a variável possui um valor. 
+
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img39.png?raw=true)
+
 - #### Value
 
-- 
+  #### Ele traz o valor da variável, mas somente se ela tiver um valor. Se for nullable ela não retorna:
+
+  ![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img40.png?raw=true)
+
+- #### Operador de coalescência nula:
+
+  ![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img41.png?raw=true)
+
+
+
+## ARRAYS🧩:
+
+#### Quando instanciamos um array, ele fica gravado na HEAP, assim como um objeto. Os valores saem da stack e são armazenados na heap. 
 
 
 

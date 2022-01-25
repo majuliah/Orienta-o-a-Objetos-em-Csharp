@@ -397,6 +397,10 @@ Rever a aula 67, parte de métodos com escopo local;
 
 #### Quando instanciamos um array, ele fica gravado na HEAP, assim como um objeto. Os valores saem da stack e são armazenados na heap. 
 
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img42.png?raw=true)
+
+#### Agora usando arrays para armazenar objetos:
+
 
 
 

@@ -39,16 +39,14 @@ namespace Cap3._2
                 WriteLine($"Enter with a price $");
                 double value = double.Parse(ReadLine(), CultureInfo.InvariantCulture);
                 arrayOfObjs[i] = new Product(name, value);
+            }
+            double sum = 0.0;
+            for (int i = 0; i < 3; i++)
+            {
+                sum += arrayOfObjs[i].ProductValue;
                 
             }
-
-            double sum = 0.0;
-            
-            for (int i = 0; i < 3; i++)
-                sum += arrayOfObjs[i].ProductValue;
-
             double average = sum / 3;
-            
             WriteLine(@$"The average of the products is {average.ToString("F2", CultureInfo.InvariantCulture)}");
             
         }

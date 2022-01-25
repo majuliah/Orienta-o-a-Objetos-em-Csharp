@@ -401,7 +401,7 @@ Rever a aula 67, parte de métodos com escopo local;
 
 #### Agora usando arrays para armazenar objetos:
 
-
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img43.png?raw=true)
 
 
 

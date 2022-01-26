@@ -405,9 +405,13 @@ Rever a aula 67, parte de métodos com escopo local;
 
 
 
+## Modificador de Parâmetro Params:
 
+# REVER: 
 
-
+- Como criar classes
+- Opções de como chamá-las
+- Get e Set com diferentes visibilidades;
 
 ####  
 

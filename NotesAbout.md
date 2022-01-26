@@ -407,9 +407,29 @@ Rever a aula 67, parte de métodos com escopo local;
 
 ## Modificador de Parâmetro Params:
 
+#### Vamos fazer uma classe calculadora que tem o objetivo de somar os elementos dentro do array passado como parâmetro:
+
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img44.png?raw=true)
+
+#### A forma de realizar a soma no main program é instanciando um objeto e depois instanciando um array na hora de passar os valores:
+
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img45.png?raw=true)
+
+#### O código funciona, mas está verboso. Nós podemos retirar a instanciação do vetor e colocar apenas os números, de forma direta, apenas colocando no método a palavra ***params***:
+
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img46.png?raw=true)
+
+#### Então a instanciação fica mais bonita e simples:
+
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img47.png?raw=true)
+
+#### Pronto, that's the way it is! 😁 código lindo, cheio de graça 
 
 
-#### O código funciona, mas está verboso. Nós podemos retirar a instanciação do vetor e colocar apenas os números, de forma direta:
+
+## REF e OUT:
+
+## Sobre a ref:
 
 
 

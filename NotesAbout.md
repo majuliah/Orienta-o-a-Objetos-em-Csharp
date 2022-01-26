@@ -407,6 +407,12 @@ Rever a aula 67, parte de métodos com escopo local;
 
 ## Modificador de Parâmetro Params:
 
+
+
+#### O código funciona, mas está verboso. Nós podemos retirar a instanciação do vetor e colocar apenas os números, de forma direta:
+
+
+
 # REVER: 
 
 - Como criar classes

@@ -16,6 +16,14 @@ namespace Cap3._3
                          in sum is {firstWay} and with more numbers is {firstWayAddingNumbers}");
             
             
+            //the code works... but... we can do better and cleaner, right? instance the array
+            //turn things complicated and bad looking (the code is polluted)
+            
+            double secondWay = Calculator.LetsSum(2, 3, 4, 5);
+            double secondWayAddingNumbers = Calculator.LetsSum(6, 8, 3, 9, 8, 4, 7);
+            
+            WriteLine(@$"The result of the second way to do, but only with 4 numbers
+                         in sum is {secondWay} and with more numbers is {secondWayAddingNumbers}");
 
 
         }

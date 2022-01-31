@@ -429,7 +429,25 @@ Rever a aula 67, parte de métodos com escopo local;
 
 ## REF e OUT:
 
-## Sobre a ref:
+## ref:
+
+#### É quando queremos pegar valores da heap e jogar na stack. Pegamos a referência do valor na heap, e a apresentamos na stack. Dessa forma, pegamos a referência do atributo ou do parâmetro e passamos direto, dessa forma:
+
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img49.png?raw=true)
+
+#### e no main, utilizamos o ref também, na hora de chamar o método.
+
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img48.png?raw=true)
+
+ 
+
+## out:
+
+#### o aut é uma variável de saída. Ele só recebe o valor para armazenar. Ele é o mesmo que o ref, mas não necessita que uma variável seja iniciada. 
+
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img50.png?raw=true)
+
+#### a variável int de saída result que receberá o valor que está na heap.
 
 
 

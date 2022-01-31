@@ -31,10 +31,7 @@ namespace Cap3._4
             //já o out é uma variável de saída. ele só recebe o valor e não tem a necessidade de 
             //iniciar alguma variável. 
             
-            //ambas práticas são desencorajadas, além de ser um recurso para c++
-
             
-            Calculator.Calcular(3,9);
             
 
 

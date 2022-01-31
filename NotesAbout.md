@@ -18,7 +18,7 @@
 
 ## CLR 🌐:
 
-#### Linguagens compiladas são aquelas que dependem de um compilador, específico para cada sistema operacional para ser compilada. C++ é um exemplo. Ela é compilada, e dessa forma é gerado um arquivo executável para a execução daquele programa. Uma vez executada, roda muito mais rápido. 
+#### Linguagens compiladas são aquelas que dependem de um compilador específico para cada sistema operacional para ser compilada. C++ é um exemplo. Ela é compilada, e dessa forma é gerado um arquivo executável para a execução daquele programa. Uma vez executada, roda muito mais rápido. 
 
 #### Linguagens Interpretadas são aquelas que possuem possuem um interpretador que gradualmente vai fazendo a execução do arquivo. O mesmo código roda em diferentes sistemas, mas precisamos de um interpretados específico para cada um (sistema). Vantagem é a manutenção e a desvantagem é que é mais lento que a compilação. 
 
@@ -160,7 +160,7 @@
    
    ![img10](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img10.png?raw=true)
    
-   #### Nós usamos a classe Dólar e criamos um método estático. Assim quando formos chamar no programa principal, nós só passamos a referência do nome da classe, e assim não é necessário instanciar um objeto. 
+   #### Nós usamos a classe Dólar e criamos um método estático. Assim quando formos chamar no programa principal, nós só passamos a referência do nome da classe, **e assim não é necessário instanciar um objeto**. 
    
    ![img11](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img11.png?raw=true)
    
@@ -347,11 +347,15 @@
 
 ## Garbage Collector:
 
+#### cuida da heap
+
 #### Ele é responsável por automatizar o gerenciamento de memória. Monitora a memória HEAP e desaloca objetos que não estão sendo utilizados. 
 
 #### Quando um objeto perde sua referência, o garbage collector o desaloca em um momento futuro, otimizando a nossa aplicação.
 
 ## Escopo Local:
+
+#### dentro da stack
 
 #### Assim que uma variável é criada em um escopo, um de if, por exemplo, assim que o loop deixar de ser verdadeiro, a variável será descartada e deixará de existir. 
 
@@ -365,7 +369,7 @@ Rever a aula 67, parte de métodos com escopo local;
 
 ![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img37.png?raw=true)
 
-### Temos 4 funções para trabalhar com nulos:
+### Temos 3 funções para trabalhar com nulos:
 
 - #### GetValueOrDefault🪢:
 
@@ -449,6 +453,28 @@ Rever a aula 67, parte de métodos com escopo local;
 
 #### a variável int de saída result que receberá o valor que está na heap.
 
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img51.png?raw=true)
+
+
+
+## BOXING
+
+#### É a conversão de um objeto do tipo valor para um objeto do tipo referência; 
+
+#### Object é um tipo genérico no c# e recebe quaisquer tipos que forem atribuídos a ele. Então se fazemos Object receber a variável boxing valendo 20, ele criará uma nova referência na heap valendo 20.
+
+
+
+## UNBOXING:
+
+#### É a conversão de um tipo referência para um tipo valor compatível. Teremos sempre que fazer o casting. Da heap faz uma variável na stack:
+
+
+
+
+
+
+
 
 
 # REVER: 
@@ -456,6 +482,7 @@ Rever a aula 67, parte de métodos com escopo local;
 - Como criar métodos
 - Opções de como chamá-los
 - construtores
+- arrays para armazenar objetos;
 - Get e Set com diferentes visibilidades;
 
 ####  

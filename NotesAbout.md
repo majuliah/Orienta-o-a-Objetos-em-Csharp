@@ -463,11 +463,31 @@ Rever a aula 67, parte de métodos com escopo local;
 
 #### Object é um tipo genérico no c# e recebe quaisquer tipos que forem atribuídos a ele. Então se fazemos Object receber a variável boxing valendo 20, ele criará uma nova referência na heap valendo 20.
 
-
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img52.png?raw=true)
 
 ## UNBOXING:
 
 #### É a conversão de um tipo referência para um tipo valor compatível. Teremos sempre que fazer o casting. Da heap faz uma variável na stack:
+
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img53.png?raw=true)
+
+
+
+## Listas 📜😶:
+
+#### As listas são estruturas de dados homogêneas, acessadas por meio de posições. Ela inicia vazia e os elementos são alocados sob demanda. Cada elemento ocupa um nó ou nodo da lista, ele contém o valor do nodo e a referência para o próximo elemento. É fácil realizar inserções e deleções. Vantagens são tamanhos variáveis, facilidade de realizar inserção e deleções. 
+
+#### A desvantagem é acesso sequencial aos elementos. Mas geralmente podemos implementar listas de formas otimizadas, onde podemos acessar seus elementos como fazemos no vetor. 
+
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img53.png?raw=true)
+
+#### No C#, usaremos a classe list. 
+
+
+
+
+
+
 
 
 

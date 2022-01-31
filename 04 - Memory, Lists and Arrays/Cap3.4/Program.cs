@@ -1,4 +1,5 @@
-﻿using static System.Console;
+﻿using System;
+using static System.Console;
 
 namespace Cap3._4
 {
@@ -31,7 +32,13 @@ namespace Cap3._4
             //iniciar alguma variável. 
             
             //ambas práticas são desencorajadas, além de ser um recurso para c++
+
             
+            Calculator.Calcular(3,9);
+            
+
+
+
 
         }
     }

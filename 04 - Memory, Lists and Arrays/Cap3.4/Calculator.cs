@@ -1,4 +1,5 @@
-﻿namespace Cap3._4
+﻿using System;
+namespace Cap3._4
 {
     public class Calculator
     {
@@ -11,5 +12,9 @@
         {
             result = x * 3;
         }
+        
+        
+        
+        
     }
 }

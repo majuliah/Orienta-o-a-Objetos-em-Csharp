@@ -435,8 +435,9 @@ Rever a aula 67, parte de métodos com escopo local;
 
 # REVER: 
 
-- Como criar classes
-- Opções de como chamá-las
+- Como criar métodos
+- Opções de como chamá-los
+- construtores
 - Get e Set com diferentes visibilidades;
 
 ####  

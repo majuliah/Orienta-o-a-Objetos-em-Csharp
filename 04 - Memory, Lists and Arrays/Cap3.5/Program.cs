@@ -24,10 +24,6 @@ namespace Cap3._5
             WriteLine(boxing);
             WriteLine(typeOfObject);
             WriteLine(unboxing);
-            
-
-
-
 
         }
     }

@@ -479,9 +479,9 @@ Rever a aula 67, parte de métodos com escopo local;
 
 #### A desvantagem é acesso sequencial aos elementos. Mas geralmente podemos implementar listas de formas otimizadas, onde podemos acessar seus elementos como fazemos no vetor. 
 
-![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img53.png?raw=true)
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img54.png?raw=true)
 
-#### No C#, usaremos a classe list. 
+#### 
 
 
 

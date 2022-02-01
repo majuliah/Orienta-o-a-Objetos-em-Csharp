@@ -481,7 +481,19 @@ Rever a aula 67, parte de métodos com escopo local;
 
 ![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img54.png?raw=true)
 
-#### 
+#### aqui temos o comportamento das lists
+
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img55.png?raw=true)
+
+### Maipulando as listas:
+
+- #### **Add:** Adiciona o item no fim da fila;
+
+- #### **Insert**: Adiciona na posição em que especificarmos. Caso especifique uma opção já ocupada, ele aloca e manda o item da posição para baixo; Entre parênteses colocamos a posição que queremos e após a vírgula o que queremos colocar;
+
+- ####  
+
+-  
 
 
 

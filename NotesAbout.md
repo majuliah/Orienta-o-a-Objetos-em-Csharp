@@ -491,7 +491,9 @@ Rever a aula 67, parte de métodos com escopo local;
 
 - #### **Insert**: Adiciona na posição em que especificarmos. Caso especifique uma opção já ocupada, ele aloca e manda o item da posição para baixo; Entre parênteses colocamos a posição que queremos e após a vírgula o que queremos colocar;
 
-- ####  
+- ####  **Find**: Encontra o que estamos procurando, o que será passado pelo parâmetro, é o que será retornado.
+
+- 
 
 -  
 

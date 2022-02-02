@@ -43,11 +43,10 @@ namespace Cap3._7
             {
                 WriteLine($"Employee not registered at database! ");
             }
-
+            
             foreach (Employee people in employeeRegister)
-            {
                 WriteLine(people);
-            }
+            
 
         }
     }

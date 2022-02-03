@@ -487,15 +487,39 @@ Rever a aula 67, parte de métodos com escopo local;
 
 ### Maipulando as listas:
 
-- #### **Add:** Adiciona o item no fim da fila;
+- #### **Add:** Adiciona o item no fim da fila(na ordem correta das coisas);
 
 - #### **Insert**: Adiciona na posição em que especificarmos. Caso especifique uma opção já ocupada, ele aloca e manda o item da posição para baixo; Entre parênteses colocamos a posição que queremos e após a vírgula o que queremos colocar;
 
 - ####  **Find**: Encontra o que estamos procurando, o que será passado pelo parâmetro, é o que será retornado.
 
-- 
+- #### **FindLast:** Encontra o último incidente na lista que satisfaz o que foi passado no parâmetro;
 
--  
+-  #### **FindIndex:** Encontra o índice da lista que satisfaz o que foi passado no parâmetro; 
+
+- #### **FindLastIndex:** Encontra o índice da última ocorrência do que foi passado no parâmetro;
+
+- #### **FindAll**: Encontra todos os elementos da lista que satisfazem ao que foi passado no parâmetro;
+
+- #### **Remove**: Remove o elemento que satisfazem o que foi passado no parâmetro;
+
+- #### **RemoveAll**: Remove todos os elementos da lista que satisfazem o que foi passado no parâmetro;
+
+- #### **RemoveAt**: Remove o que está na posição passada no parâmetro;
+
+- ####  **RemoveRange**: Remove os elementos que estão dentro da faixa passada dentro dos parâmetros. (5,7 -> irá remover da posição 5 até a posição 7)
+
+- ### Pesquisar outros métodos para listas
+
+
+
+## MATRIZES:🪆
+
+### ![img](https://media.tenor.com/images/99cca24972fbd04d787232966bfeb281/tenor.gif)  hehehehehehehhhh não resisti hehehehehe
+
+
+
+
 
 
 

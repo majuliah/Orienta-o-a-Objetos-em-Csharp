@@ -23,7 +23,36 @@ namespace Cap3._11
                     employeeRegister[4], double.Parse(employeeRegister[5], CultureInfo.InvariantCulture)));
             }
             
-            //still need to calculate the readjustment
+            WriteLine($"Do you want to increase any employee salary?");
+            char answer = char.Parse(ReadLine());
+
+            switch (answer)
+            {
+                case 'y':
+                    WriteLine($"Enter with the employee id: ");
+                    int idPassed = int.Parse(ReadLine());
+                    Employee employeeSelected = newEmployees.Find(id => id.EmployeeIdNumber == idPassed);
+                    if (employeeSelected != null)
+                    {
+                        WriteLine($"Enter with the percentage: ");
+                        double percentage = double.Parse(ReadLine(), CultureInfo.InvariantCulture);
+                        employeeSelected.RecalculateSalary(percentage);
+                    }
+                    else
+                    {
+                        WriteLine($"Employee not found! Try again");
+                    }
+                    break;
+                case 'n':
+                    WriteLine($"Ending execution.");
+                    break;
+            }
+
+            foreach (Employee registered in newEmployees)
+            {
+                WriteLine(registered);
+            }
+            
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace Cap3._11
+﻿using System.Globalization;
+
+namespace Cap3._11
 {
     public class Employee : People
     {
@@ -25,6 +27,13 @@
         public void RecalculateSalary(double percentage)
         {
             EmployeeSalary += EmployeeSalary * (percentage / 100.0);
+        }
+
+        public override string ToString()
+        {
+            return ($"Employee name: {Name + " " +MiddleName} \n" +
+                    $"Employee id: {EmployeeIdNumber} \n " +
+                    $"Employee new salary: ${EmployeeSalary.ToString($"F2", CultureInfo.InvariantCulture)}");
         }
     }
 }

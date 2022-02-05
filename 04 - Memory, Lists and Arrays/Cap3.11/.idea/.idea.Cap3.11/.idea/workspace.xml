@@ -8,11 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef51dbcb-7a1f-4acf-8040-4ec700f0aa65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Employee.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cap3.11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cap3.11/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/Cap3.11.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/Cap3.11.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644086898083</updated>
-      <workItem from="1644086906424" duration="3290000" />
+      <workItem from="1644086906424" duration="6266000" />
     </task>
     <servers />
   </component>

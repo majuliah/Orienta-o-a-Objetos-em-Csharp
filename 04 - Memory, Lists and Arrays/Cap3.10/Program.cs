@@ -1,4 +1,5 @@
-﻿using static System.Console;
+﻿using System.Globalization;
+using static System.Console;
 
 namespace Cap3._10
 {
@@ -17,26 +18,41 @@ namespace Cap3._10
                 string[] positionsMatrix = ReadLine().Split(' ');
                 for (int j = 0; j < dimensionOfMatrix; j++)
                 {
-                    myFirstMatrixThisYear[i, j] = double.Parse(positionsMatrix[j]);
+                    myFirstMatrixThisYear[i, j] = double.Parse(positionsMatrix[j], CultureInfo.InvariantCulture);
                 }
             }
             
-            WriteLine($"Diagonal: ");
+            WriteLine($"Diagonal:  \n \n");
             for (int i = 0; i < dimensionOfMatrix; i++)
                 WriteLine(myFirstMatrixThisYear[i,i]);
                 
+            WriteLine($"________________________________ \n \n");
+            
+            for (int i = 0; i < dimensionOfMatrix; i++)
+            {
+                for (int j = 0; j < dimensionOfMatrix; j++)
+                    Write(myFirstMatrixThisYear[i,j] + " ");
+                WriteLine(" ");
+            }
 
-            //arrumar a impressão
+            int totalNegative = 0, totalPositive = 0, totalPair = 0, totalOdd = 0;
             for (int i = 0; i < dimensionOfMatrix; i++)
             {
                 for (int j = 0; j < dimensionOfMatrix; j++)
                 {
-                    WriteLine(myFirstMatrixThisYear[i,j] + ' ');
+                    if (myFirstMatrixThisYear[i,j] > 0)
+                        totalNegative += 1;
+                    else
+                        totalNegative += 1;
+                    
+                    if (myFirstMatrixThisYear[i, j] % 2 == 0)
+                        totalPair += 1;
+                    else
+                        totalOdd += 1;
                 }
             }
             
-            //fazer o contador de números ímpares, números pares, números positivos e negativos
-            //fazer o desafio do nelio alves
+            WriteLine($"Total pair: {totalPair}, total odd: {totalOdd}, total negative: {totalNegative}, total positive: {totalPositive}");
         }
     }
 }

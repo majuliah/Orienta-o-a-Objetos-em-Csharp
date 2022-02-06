@@ -1,2 +1,3 @@
-coisas para fazer:
-rever:
+coisas para fazer: começar capítulo 5
+rever: listas, matrizes
+

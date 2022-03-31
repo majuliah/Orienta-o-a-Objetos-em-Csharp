@@ -447,7 +447,7 @@ Rever a aula 67, parte de métodos com escopo local;
 
 ## out:
 
-#### o aut é uma variável de saída. Ele só recebe o valor para armazenar. Ele é o mesmo que o ref, mas não necessita que uma variável seja iniciada. 
+#### o out é uma variável de saída. Ele só recebe o valor para armazenar. Ele é o mesmo que o ref, mas não necessita que uma variável seja iniciada. 
 
 ![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img50.png?raw=true)
 

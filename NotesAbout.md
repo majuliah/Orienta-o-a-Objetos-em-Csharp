@@ -132,7 +132,7 @@
 
 ![img8](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img8.png?raw=true)
 
-#### O resultado sempre será a mensagem que colocamos no override ToString.
+#### O resultado sempre será a mensagem que colocamos no override ToString. Neste caso, vamos sobrescrever o ToString para receber o valor da mensagem e quando um Write for usado, ele irá RETURN, retornar o que foi passado no método.
 
 # MEMBROS ESTÁTICOS 😗
 

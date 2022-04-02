@@ -8,7 +8,7 @@ namespace Cap1._6
         {
             WriteLine("DateTimeKind: \n");
             
-            //do the examples :o
+            //do the examples :os
             
             
             

@@ -132,7 +132,7 @@
 
 ![img8](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img8.png?raw=true)
 
-#### O resultado sempre será a mensagem que colocamos no override ToString.
+#### O resultado sempre será a mensagem que colocamos no override ToString. Neste caso, vamos sobrescrever o ToString para receber o valor da mensagem e quando um Write for usado, ele irá RETURN, retornar o que foi passado no método.
 
 # MEMBROS ESTÁTICOS 😗
 
@@ -447,7 +447,7 @@ Rever a aula 67, parte de métodos com escopo local;
 
 ## out:
 
-#### o aut é uma variável de saída. Ele só recebe o valor para armazenar. Ele é o mesmo que o ref, mas não necessita que uma variável seja iniciada. 
+#### o out é uma variável de saída. Ele só recebe o valor para armazenar. Ele é o mesmo que o ref, mas não necessita que uma variável seja iniciada. 
 
 ![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img50.png?raw=true)
 

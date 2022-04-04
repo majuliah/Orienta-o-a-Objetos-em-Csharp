@@ -10,8 +10,8 @@ ponto onde o commit foi feito
 
 🎏 git checkout main -> traz o arquivo para o estado normal, do último commit feito
 
-🌌 git checkout HEAD~X -> o X diz quantos commits você quer refazer.
-se for git checkout HEAD~2, voltaremos 2 commits da branch
+🌌 git checkout HEAD~ X -> o X diz quantos commits você quer refazer.
+se for git checkout HEAD~ 2, voltaremos 2 commits da branch
 
 💫  NÃO SE MODIFICA OS ARQUIVOS DO CHECKOUT, isso pode gerar problemas de versionamento 
 e pode ferir a integridade do código. 

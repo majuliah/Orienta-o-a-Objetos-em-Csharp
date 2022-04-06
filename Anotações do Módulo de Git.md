@@ -35,7 +35,7 @@
 #### 🌸deu git commit sem o -m + comment???
 #### 🪂abriu o VIM????
 
-#### 🪅Habilita o modo de edição pressionando : i
+#### 🧩Habilita o modo de edição pressionando : i
 #### 🧸Sair do VIM salvando as alterações:
 
 #### 🧩Tecla ESC

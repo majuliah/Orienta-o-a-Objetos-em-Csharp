@@ -75,7 +75,7 @@
 
 
 ```
-🌌git remote set-url origin https://github.com/majuliah/estagio-estudos.git
+🌌git remote set-url origin https://github.com/majuliah/nome-do-repositorio.git
 ```
 
 💥Este comando a cima vai adicionar um repositório já existente para um novo. Ou seja, o projeto aponta para um novo.

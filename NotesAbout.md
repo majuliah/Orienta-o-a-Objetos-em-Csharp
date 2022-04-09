@@ -521,6 +521,10 @@ Rever a aula 67, parte de métodos com escopo local;
 
   #### Enumerações são tipos valores especiais para especificar de forma literal um conjunto de constantes. É **semelhante** ao switch case.
 
+  #### Aqui uma estrutura de um ENUM:
+
+  
+
   
 
   

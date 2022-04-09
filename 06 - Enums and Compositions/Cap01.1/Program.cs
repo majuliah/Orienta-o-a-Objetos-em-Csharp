@@ -43,15 +43,17 @@ namespace Cap01._1
             string transformingToText = OrderStatus.Shipped.ToString();
             WriteLine(transformingToText);
 
+            
             OrderStatus transformingToInt = Enum.Parse<OrderStatus>($"Shipped");
             WriteLine(transformingToInt);
 
+            /*
             OrderStatus tranformingToInt2 = Enum.Parse<OrderStatus>($"PendingPayment");
             WriteLine(tranformingToInt2);
             OrderStatus transformingToInt3 = Enum.Parse<OrderStatus>($"Delivered");
             WriteLine(transformingToInt3);
             
-
+            */
         }
     }
 }

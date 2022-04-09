@@ -1,3 +1,6 @@
 coisas para fazer: começar capítulo 5
-rever: listas, matrizes
+rever: LISTAS, MODIFICADORES DE ACESSO, ENUMS
+
+No livro: rever herança
+No curso: ver o que é virtual
 

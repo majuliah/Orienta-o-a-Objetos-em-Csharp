@@ -513,9 +513,19 @@ Rever a aula 67, parte de métodos com escopo local;
 
 
 
-## MATRIZES:🪆
 
-### ![img](https://media.tenor.com/images/99cca24972fbd04d787232966bfeb281/tenor.gif)  hehehehehehehhhh não resisti hehehehehe
+
+## ENUMS e Composições🪂:
+
+- #### Definição:
+
+  #### Enumerações são tipos valores especiais para especificar de forma literal um conjunto de constantes. É **semelhante** ao switch case.
+
+  
+
+
+
+
 
 
 

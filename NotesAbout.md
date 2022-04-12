@@ -523,13 +523,29 @@ Rever a aula 67, parte de métodos com escopo local;
 
   #### Aqui uma estrutura de um ENUM:
 
+  ![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img56.png?raw=true)
+
+  #### Os enums, por default, começam com o número 0, só sendo necessário referir um valor caso não seja desejada a sequência de 0 a N.
+
+  ![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img57.png?raw=true)
   
-
+  #### Aqui estamos criando um atributo do tipo enum OrderStatus chamado StatusOrder. Quando usado, ele conterá todas as informações colocadas no Enum.
   
+  ![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img58.png?raw=true)
 
-  
+#### Aqui estamos instanciando um objeto. O staturOrder recebe o enum Delivered, definido no Enum OrderStatus.
 
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img59.png?raw=true)
 
+#### Aqui estamos fazendo a conversão.
+
+#### No primeiro exemplo a variável do tipo string recebe o enum OrderStatus com o status shipped convertido para string. Na impressão imprimirá no fomato de string.
+
+#### No segundo exemplo temos uma variável transformingToInt do tipo enum OrderStatus recebendo a conversão de um string para tipo enumerado. Então o Enum.Parse tá fazendo a conversão, e o tipo dentro dos sinais <> estão indicando QUAL ENUM queremos parametrizar. Entre parênteses estamos o valor que queremos converter para o tipo enumerado, e deve ser IGUAL ao que está dentro do enum parametrizado. O resultado é:
+
+#### ![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img60.png?raw=true) 
+
+# 💪😁
 
 
 

@@ -6,9 +6,9 @@ namespace Cap01._1.Entities
     {
         public int Id { get; set; }
         public string ProductName { get; set; }
-        public DateTime ProductOrderDay { get; set; }
-        public OrderStatus StatusOrder { get; set; }
+        public DateTime ProductOrderDay { get; set; }public OrderStatus StatusOrder { get; set; }
 
+        
 
         public override string ToString()
         {

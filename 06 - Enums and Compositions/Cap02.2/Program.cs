@@ -46,7 +46,7 @@ namespace Cap02._2
             
             Write($"\n Worker: {employee.Name}");
             Write($"\n Department: {employee.Department.Name}");
-            Write($"\n Income for {monthAndYear}: {employee.Income(mont, year)}");
+            Write($"\n Income for {monthAndYear}: {employee.Income(year, month)}");
 
 
 

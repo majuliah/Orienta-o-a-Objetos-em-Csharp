@@ -12,7 +12,7 @@ namespace Cap02._2
         {
             string[] camps = new string[20];
             
-            WriteLine($"Enter with the department name");
+            WriteLine($"Enter with the department name ");
             string departmentName = ReadLine();
             WriteLine($"Enter with the employee data: begin with the name: ");
             string employeeName = ReadLine();

@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using static System.Console;
+
+namespace Cap01._01
+{
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            WriteLine("Beginning Heritage and Polymorphism");
+            
+        }
+    }
+}

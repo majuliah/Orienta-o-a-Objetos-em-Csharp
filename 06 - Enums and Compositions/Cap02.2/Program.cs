@@ -16,7 +16,7 @@ namespace Cap02._2
             string departmentName = ReadLine();
             WriteLine($"Enter with the employee data: begin with the name: ");
             string employeeName = ReadLine();
-            WriteLine($"Now, the level: (Junior / MidLevel / Senior)");
+            WriteLine($"Now, the level: (Junior / MidLevel / Senior )");
             EmployeeLevel level = Enum.Parse<EmployeeLevel>(ReadLine());
             WriteLine($"How much is the salary base? ");
             double baseSalary = double.Parse(ReadLine(), CultureInfo.InvariantCulture);

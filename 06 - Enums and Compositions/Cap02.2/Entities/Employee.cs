@@ -25,6 +25,7 @@ namespace Cap02._2.Entities
             Contracts.Add(contract);
         }
 
+        
         public void RemoveContract(HourContract contract)
         {
             Contracts.Remove(contract);

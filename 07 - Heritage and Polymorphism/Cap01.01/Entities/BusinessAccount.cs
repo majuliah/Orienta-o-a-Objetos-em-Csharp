@@ -16,7 +16,7 @@ namespace Cap01._01.Entities
             if(amount <= LoanLimit)
             {
                 Balance += amount;
-                //comment
+                
             }
         }
 

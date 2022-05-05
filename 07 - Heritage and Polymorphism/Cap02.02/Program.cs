@@ -1,2 +1,19 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using static System.Console;
+
+namespace Cap02._02
+{
+    class Program 
+    {
+        public static void Main(string[] args)
+        {
+            
+            WriteLine("Up and Downcasting :)");
+
+
+
+
+
+
+        }
+    }
+}

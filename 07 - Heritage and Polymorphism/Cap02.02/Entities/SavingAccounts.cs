@@ -6,8 +6,13 @@ namespace Cap02._02.Entities
 
         public SavingAccounts(){}
 
-        public SavingAccounts(int number, string holder, double balance): base (number, holder, balance){
-            
+        public SavingAccounts(int number, string holder, double balance, double interestRate): base (number, holder, balance){
+            InterestRate = interestRate;
+        }
+
+        public void UpdateBalance()
+        {
+            Balance += Balance * InterestRate;
         }
 
 

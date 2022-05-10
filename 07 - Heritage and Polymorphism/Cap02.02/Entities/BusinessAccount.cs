@@ -6,7 +6,8 @@ namespace Cap02._02.Entities
 
         public BusinessAccount(){ }
 
-        public BusinessAccount(int number, string holder, double balance,double loanLimit) : base(number, holder, balance)
+        public BusinessAccount(int number, string holder, double balance,double loanLimit) 
+        : base(number, holder, balance)
         { 
             LoanLimit = loanLimit;
         }
@@ -14,9 +15,7 @@ namespace Cap02._02.Entities
         public void Loan(double amount)
         {
             if(amount <= LoanLimit)
-            {
                 Balance += amount;
-            }
         }
 
     }

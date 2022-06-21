@@ -577,77 +577,9 @@ Rever a aula 67, parte de métodos com escopo local;
 
 ####  
 
+### UPCASTING & DOWNCASTING:
 
+#### Upcasting: Casting da subclasse para SUperclasse -> Convertemos uma subclasse para uma superclasse, usamos isto com polimorfismo
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#### Downcasting: Inverso do upcasting, é a conversão da superclasse para a subclasse.
 

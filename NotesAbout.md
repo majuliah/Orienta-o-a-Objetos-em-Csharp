@@ -82,7 +82,7 @@
 
 ![img3](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img1.png?raw=true)
 
-#### O triânguloX e trianguloY que criamos, herdam todos os atributos da classe Triangulo que criamos. Assim podemos manipulas do jeito que queremos os tipos.
+#### O triânguloX e trianguloY herdam todos os atributos da classe Triangulo que criamos. Assim podemos manipular os tipos do jeito que queremos.
 
 #### Após criarmos as variáveis triX e triY, precisamos **INSTANCIAR** o objeto. É feito com o comando new:                        *triX = new Triangulo();*
 

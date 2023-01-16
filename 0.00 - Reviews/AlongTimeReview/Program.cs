@@ -31,6 +31,13 @@ namespace AlongTimeReview
             double average = sum / 3;
             
             WriteLine(@$"The average of the products is {average.ToString("F2", CultureInfo.InvariantCulture)}");
+            
+            WriteLine($"-----------------------------");
+
+            double summing = Calculator.Calculinator(2, 3, 4, 5, 6, 7);
+            
+            WriteLine($"The result: {summing}");
         }
+        
     }
 }

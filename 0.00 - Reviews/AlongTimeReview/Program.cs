@@ -37,6 +37,8 @@ namespace AlongTimeReview
             double summing = Calculator.Calculinator(2, 3, 4, 5, 6, 7);
             
             WriteLine($"The result: {summing}");
+
+            //object triple = 78.3;
         }
         
     }

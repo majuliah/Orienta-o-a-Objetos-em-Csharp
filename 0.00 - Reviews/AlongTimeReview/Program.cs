@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
 using static System.Console;
 
@@ -39,6 +40,41 @@ namespace AlongTimeReview
             WriteLine($"The result: {summing}");
 
             //object triple = 78.3;
+
+            //resuming lists
+            List<string> lista;
+            List<string> lista2 = new List<string>();
+            List<string> lista3 = new List<string>() {"Maria", "Alex", "Waldo" };
+            
+            //manipulando listas
+
+            List<string> listaAdd = new List<string>();
+            //add será adicionado ao fim da lista
+            listaAdd.Add($"Bob");
+            listaAdd.Add($"Cabeleleila"); 
+            listaAdd.Add($"Leyla"); 
+            listaAdd.Add($"Marleila");
+
+            foreach (string name in listaAdd)
+            {
+                WriteLine(name);
+            }
+
+            List<string> listaInsert = new List<string>();
+            //insert especifica qual posição adicionar item
+            listaInsert.Insert(2, $"Marleilaleila");
+            
+            
+            //matrizes: vetores bidimensionais
+            //LINHA x COLUNA
+
+            double[,] matriz1 = new double[3,3];
+            
+            
+
+
+
+
         }
         
     }

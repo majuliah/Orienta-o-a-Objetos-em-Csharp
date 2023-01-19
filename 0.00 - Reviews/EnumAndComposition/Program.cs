@@ -15,11 +15,6 @@ namespace EnumAndComposition
             WriteLine($"Here is the Departments name:");
             Department depart = new Department($"Graphics Designer");
             
-            /*
-            WriteLine($"Worker Level:");
-            WorkerLevel level = Enum.Parse<WorkerLevel>($"senior");
-            */
-            
             WriteLine($"Here is workers information: ");
             Worker employee = new Worker("Maverick", WorkerLevel.junior, 3000.00, depart);
 

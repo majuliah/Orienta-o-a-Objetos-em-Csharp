@@ -69,11 +69,6 @@ namespace AlongTimeReview
             //LINHA x COLUNA
 
             double[,] matriz1 = new double[3,3];
-            
-            
-
-
-
 
         }
         

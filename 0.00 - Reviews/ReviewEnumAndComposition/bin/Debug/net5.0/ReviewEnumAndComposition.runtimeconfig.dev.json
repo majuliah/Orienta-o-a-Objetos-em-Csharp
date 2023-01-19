@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\majul\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\majul\\.nuget\\packages"
+    ]
+  }
+}

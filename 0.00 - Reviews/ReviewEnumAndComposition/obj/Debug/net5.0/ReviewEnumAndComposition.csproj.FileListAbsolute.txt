@@ -1,0 +1,16 @@
+C:\Users\majul\Documents\ultimatePOOcSharp\0.00 - Reviews\ReviewEnumAndComposition\bin\Debug\net5.0\ReviewEnumAndComposition.exe
+C:\Users\majul\Documents\ultimatePOOcSharp\0.00 - Reviews\ReviewEnumAndComposition\bin\Debug\net5.0\ReviewEnumAndComposition.deps.json
+C:\Users\majul\Documents\ultimatePOOcSharp\0.00 - Reviews\ReviewEnumAndComposition\bin\Debug\net5.0\ReviewEnumAndComposition.runtimeconfig.json
+C:\Users\majul\Documents\ultimatePOOcSharp\0.00 - Reviews\ReviewEnumAndComposition\bin\Debug\net5.0\ReviewEnumAndComposition.runtimeconfig.dev.json
+C:\Users\majul\Documents\ultimatePOOcSharp\0.00 - Reviews\ReviewEnumAndComposition\bin\Debug\net5.0\ReviewEnumAndComposition.dll
+C:\Users\majul\Documents\ultimatePOOcSharp\0.00 - Reviews\ReviewEnumAndComposition\bin\Debug\net5.0\ref\ReviewEnumAndComposition.dll
+C:\Users\majul\Documents\ultimatePOOcSharp\0.00 - Reviews\ReviewEnumAndComposition\bin\Debug\net5.0\ReviewEnumAndComposition.pdb
+C:\Users\majul\Documents\ultimatePOOcSharp\0.00 - Reviews\ReviewEnumAndComposition\obj\Debug\net5.0\ReviewEnumAndComposition.csproj.AssemblyReference.cache
+C:\Users\majul\Documents\ultimatePOOcSharp\0.00 - Reviews\ReviewEnumAndComposition\obj\Debug\net5.0\ReviewEnumAndComposition.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\majul\Documents\ultimatePOOcSharp\0.00 - Reviews\ReviewEnumAndComposition\obj\Debug\net5.0\ReviewEnumAndComposition.AssemblyInfoInputs.cache
+C:\Users\majul\Documents\ultimatePOOcSharp\0.00 - Reviews\ReviewEnumAndComposition\obj\Debug\net5.0\ReviewEnumAndComposition.AssemblyInfo.cs
+C:\Users\majul\Documents\ultimatePOOcSharp\0.00 - Reviews\ReviewEnumAndComposition\obj\Debug\net5.0\ReviewEnumAndComposition.csproj.CoreCompileInputs.cache
+C:\Users\majul\Documents\ultimatePOOcSharp\0.00 - Reviews\ReviewEnumAndComposition\obj\Debug\net5.0\ReviewEnumAndComposition.dll
+C:\Users\majul\Documents\ultimatePOOcSharp\0.00 - Reviews\ReviewEnumAndComposition\obj\Debug\net5.0\ref\ReviewEnumAndComposition.dll
+C:\Users\majul\Documents\ultimatePOOcSharp\0.00 - Reviews\ReviewEnumAndComposition\obj\Debug\net5.0\ReviewEnumAndComposition.pdb
+C:\Users\majul\Documents\ultimatePOOcSharp\0.00 - Reviews\ReviewEnumAndComposition\obj\Debug\net5.0\ReviewEnumAndComposition.genruntimeconfig.cache

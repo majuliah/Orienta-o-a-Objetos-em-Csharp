@@ -40,12 +40,8 @@ namespace EnumAndComposition.Entities
                 {
                     sum += contract.TotalValue();
                 }
-
-                return sum;
             }
-            
-            
-            
+            return sum;
         }
     }
 }

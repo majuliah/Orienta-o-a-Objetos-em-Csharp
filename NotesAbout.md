@@ -517,21 +517,21 @@ Rever a aula 67, parte de métodos com escopo local;
 
 ## ENUMS e Composições🪂:
 
-- #### Definição:
+- ## Definição Enum:
 
-  #### Enumerações são tipos valores especiais para especificar de forma literal um conjunto de constantes. É **semelhante** ao switch case.
+#### Enumerações são tipos valores especiais para especificar de forma literal um conjunto de constantes. É **semelhante** ao switch case.
 
-  #### Aqui uma estrutura de um ENUM:
+#### Aqui uma estrutura de um ENUM:
 
-  ![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img56.png?raw=true)
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img56.png?raw=true)
 
-  #### Os enums, por default, começam com o número 0, só sendo necessário referir um valor caso não seja desejada a sequência de 0 a N.
+#### Os enums, por default, começam com o número 0, só sendo necessário referir um valor caso não seja desejada a sequência de 0 a N.
 
-  ![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img57.png?raw=true)
-  
-  #### Aqui estamos criando um atributo do tipo enum OrderStatus chamado StatusOrder. Quando usado, ele conterá todas as informações colocadas no Enum.
-  
-  ![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img58.png?raw=true)
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img57.png?raw=true)
+
+#### Aqui estamos criando um atributo do tipo enum OrderStatus chamado StatusOrder. Quando usado, ele conterá todas as informações colocadas no Enum.
+
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img58.png?raw=true)
 
 #### Aqui estamos instanciando um objeto. O staturOrder recebe o enum Delivered, definido no Enum OrderStatus.
 
@@ -546,6 +546,36 @@ Rever a aula 67, parte de métodos com escopo local;
 #### ![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img60.png?raw=true) 
 
 # 💪😁
+
+- ## Definição Composição:
+
+  #### Composição é um tipo de associação que permite que um objeto contenha outro ou outros objetos. É conhecido também como uma relação de tem um ou tem vários. 
+
+  ![img61](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img61.png?raw=true)
+
+  #### Aqui temos a classe trabalhador que contém um atributo do tipo *Department*, que é uma classe. Quando instanciamos o departamento atribuindo a ele um valor, como por exemplo Designer Gráfico, podemos atribuir este objeto instanciado ao objeto *Worker* posteriormente como na imagem a seguir:
+
+  <img src="https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img62.png?raw=true" alt="img62" style="zoom: 110%;" />
+
+  #### Dessa forma temos uma composição, onde um objeto já instanciado poderá compor outro objeto. 
+
+  #### As vantagens são:
+
+  - #### Organização, onde podemos dividir as responsabilidades e não sobrecarregar uma classe com funções distantes de seu propósito original;
+
+  - #### Coesão, onde podemos atribuir funções coesas para as classes e cada objeto tem funções bem definidas;
+
+  - #### Flexibilidade, trabalhando com responsabilidades divididas é mais simples e confiável que o oposto. 
+
+  - #### Reuso, onde um objeto pode ser utilizado em mais de um lugar;
+
+###### ** Este exemplo se encontra no diretório 00.reviews, EnumsAndComposition
+
+
+
+
+
+
 
 
 
@@ -582,7 +612,6 @@ Rever a aula 67, parte de métodos com escopo local;
 #### Upcasting: Casting da subclasse para Superclasse -> Convertemos uma subclasse para uma superclasse, usamos isto com polimorfismo
 
 #### Downcasting: Inverso do upcasting, é a conversão da superclasse para a subclasse.
-
 
 
 

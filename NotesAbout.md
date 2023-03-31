@@ -20,7 +20,7 @@
 
 #### Linguagens compiladas são aquelas que dependem de um compilador específico para cada sistema operacional para ser compilada. C++ é um exemplo. Ela é compilada, e dessa forma é gerado um arquivo executável para a execução daquele programa. Uma vez executada, roda muito mais rápido. 
 
-#### Linguagens Interpretadas são aquelas que possuem possuem um interpretador que gradualmente vai fazendo a execução do arquivo. O mesmo código roda em diferentes sistemas, mas precisamos de um interpretados específico para cada um (sistema). Vantagem é a manutenção e a desvantagem é que é mais lento que a compilação. 
+#### Linguagens Interpretadas são aquelas que  possuem um interpretador que gradualmente vai fazendo a execução do arquivo. O mesmo código roda em diferentes sistemas, mas precisamos de um interpretador específico para cada um (sistema). Vantagem é a manutenção e a desvantagem é que é mais lento que a compilação. 
 
 #### Híbrida: Escrevemos um programa no código fonte da linguagem(tipo o c#) e o código passa por um processo de pré compilação, gerando um código intermediário, bytecode, chamada CIL Common Intermediate Language que é universal para quaisquer linguagens escritas na plataforma. O bytecode garante a integridade dos códigos escritos e ele pode ser rodado em diferentes sistemas, com diferentes plataformas de execução. A CLR é uma platafroma que interpreta a pré-compilação. 
 

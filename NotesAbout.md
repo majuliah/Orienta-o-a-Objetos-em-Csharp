@@ -583,7 +583,7 @@ Rever a aula 67, parte de métodos com escopo local;
 
 #### Aqui podemos ver que, com a visibilidade estabelecida, não é possível setar valores que não herdem de account:
 
-
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img64.png?raw=true)
 
 
 

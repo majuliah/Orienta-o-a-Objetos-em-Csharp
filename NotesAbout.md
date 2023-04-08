@@ -573,6 +573,14 @@ Rever a aula 67, parte de métodos com escopo local;
 
 
 
+## Herança e Polimorfismo👩‍💻:
+
+#### É um tipo de associação que permite que uma classe herde membros da outra. A herança é uma relação -é um-, é um conceito de generalização e especialização. Superclasse ou classe base é a classe genérica e uma subclasse é uma classe especializada e derivada. Herança e extensão quer dizer que uma classe é extensão e herda membros da outra, e a **herança** é uma **associação** entre **classes** e **não objetos**, quer dizer que instanciamos um único objeto que possui todos os dados de todas as classes herdadas.  
+
+#### Neste capítulo aprendemos mais uma visibilidade: protected:
+
+
+
 
 
 

@@ -599,7 +599,7 @@ Rever a aula 67, parte de métodos com escopo local;
 
 #### O Downcast é desencorajado e só deve ser usado quando for extremamente necessário. O compilador pode não reconhecer algumas falhas e o erro eclode na compilação. Quando usado o downcast, é necessário checar os tipos das variáveis para que não haja erros. Para testar usamos o operador -is-.
 
-
+![downcasting](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img66.png?raw=true)
 
 
 

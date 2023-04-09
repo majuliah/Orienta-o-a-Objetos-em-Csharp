@@ -593,9 +593,11 @@ Rever a aula 67, parte de métodos com escopo local;
 
 #### A conversão de uma subclasse para uma superclasse é perfeitamente aceitável, inclusive para o compilador, porque a herança é uma relação -é um-, e isso significa que a subclasse é do tipo de sua superclasse. Uma superclasse recebe perfeitamente qualquer tipo de suas subclasses, e isso é o upcasting.
 
+![upcasting](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img65.png?raw=true)
 
+#### Downcasting é o casting da superclasse para a subclasse. Uso comum é em métodos que recebem parâmetros genéricos - Equals -
 
-#### Downcasting é o casting da superclasse para a subclasse. Uso comum é em métodos que recebem parâmetros genéricos - Equals
+#### O Downcast é desencorajado e só deve ser usado quando for extremamente necessário. O compilador pode não reconhecer algumas falhas e o erro eclode na compilação. Quando usado o downcast, é necessário checar os tipos das variáveis para que não haja erros. Para testar usamos o operador -is-.
 
 
 

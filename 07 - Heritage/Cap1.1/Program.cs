@@ -25,8 +25,26 @@ namespace Cap1._1
             //instanciando diretamente um objeto do tipo business em uma conta comum
             Account quartaContaComum = new SavingsAccount(10098, $"Lenna", 0.05, 0.01);
 
+            //Downcasting -> Superclasse para subclasse:
+            
+            BisnessAccount conta4 = (BisnessAccount)terceiraContaComum;
+            //mesmo a variável terceiraContaComum recebendo o tipo Business, o compilador só encherga o tipo da variável,
+            //no caso o tipo da terceira... que é do tipo Account, então temos que fazer casting
+            
+            conta4.Loan(100.0); 
+            //dessa forma conseguimos acessar os membros da BusinessAccount
 
+            terceiraContaComum.Loan(); 
+            //essa variável é do tipo account, e por isso não possui as propriedades da Business, mesmo
+            //tendo instanciado Business Account na variável.
 
+            if (quartaContaComum is BisnessAccount)
+            {
+                BisnessAccount contaCinco = (BisnessAccount)quartaContaComum;
+                BisnessAccount contaSeis = quartaContaComum as BisnessAccount;
+                
+                //duas formas de fazer um casting
+            }
         }
     }
 }

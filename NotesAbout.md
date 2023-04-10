@@ -683,7 +683,16 @@ namespace MetodosSelados
 
  
 
-## POLIMORFISMO: 
+## POLIMORFISMO🦛: 
+
+##### rever aula 139. 
+
+##### AQUI NO CURSO o polimorfismo foi apresentado como um recurso que permite que variáveis de um de um mesmo tipo mais genérico possam apontar para objetos de tipos específicos diferentes, tendo comportamentos diferentes conforme cada tipo específico, dessa forma:
+
+```c#
+Account conta1 = new Account (1001, Alex, 500.0)
+Account conta2 = new SavingAccount (1001, Alex, 500.0, 0.01)
+```
 
 
 

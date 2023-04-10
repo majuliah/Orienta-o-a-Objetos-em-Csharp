@@ -629,9 +629,35 @@ Rever a aula 67, parte de métodos com escopo local;
 
 - #### OVERRIDE: Fica no método da subclasse que está sendo sobrescrito. Reimplementamos métodos de superclasses dando um novo contexto mais adequado para o que a subclasse está se propondo a fazer.
 
+- #### Ambos independem de visibilidade dos membros da classe.
+
 #### Já a palavra base no contexto de sobrescrita serve para chamarmos a implementação da superclasse na subclasse. Um exemplo seria se a subclasse SavingAccount descontasse o valor normal da superclasse -5.00- mais uma taxa de 2.00 -totalizando 7.00-:
 
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img71.png?raw=true)
+
 #### Dessa forma conseguimos implementar a o método original e customizar do jeito que for necessário. 
+
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img72.png?raw=true)
+
+#### Quando fazemos construtores e queremos aproveitar o construtor da superclasse, também utilizamos o base.
+
+## Classes e métodos selados🛢️:
+
+#### Se for selada, evitaremos que a classe seja herdada. Ainda é possível extender a funcionalidade de uma classe selada usando extension methods que será visto mais à frente.
+
+#### Se selado, um método que já foi sobreposto não pode se sobrepor novamente. Só pode ser utilizado em métodos já sobrepostos.
+
+```c#
+namespace MetodosSelados
+{
+    sealed class MostrandoOmetodoSelado
+    { 
+        ...
+    }
+}
+```
+
+####
 
 
 

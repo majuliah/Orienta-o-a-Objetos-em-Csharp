@@ -3,7 +3,7 @@
     public class Account
     {
         public int Number { get; protected set; }
-        public string Name { get; protected set; }
+        public string Name { get;  protected set; }
         public double Balance { get; protected set; }
         
         public Account(){}

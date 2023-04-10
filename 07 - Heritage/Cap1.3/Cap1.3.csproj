@@ -6,8 +6,4 @@
         <RootNamespace>Cap1._3</RootNamespace>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="Entities\" />
-    </ItemGroup>
-
 </Project>

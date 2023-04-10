@@ -647,6 +647,8 @@ Rever a aula 67, parte de métodos com escopo local;
 
 #### Se selado, um método que já foi sobreposto não pode se sobrepor novamente. Só pode ser utilizado em métodos já sobrepostos.
 
+### CLASSES:
+
 ```c#
 namespace MetodosSelados
 {
@@ -657,9 +659,15 @@ namespace MetodosSelados
 }
 ```
 
-####
+#### Dessa forma, definiremos a classe SavingAccount como selada:
 
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img73.png?raw=true)
 
+#### E quando tentarmos herdar de SavingAccount:
+
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img74.png?raw=true)
+
+### MÉTODOS:
 
 
 

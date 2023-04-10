@@ -2,9 +2,9 @@
 {
     public class Account
     {
-        public int Number { get; set; }
-        public string Name { get; set; }
-        public double Balance { get; set; }
+        public int Number { get; protected set; }
+        public string Name { get; protected set; }
+        public double Balance { get; protected set; }
         
         public Account(){}
 
@@ -15,7 +15,7 @@
             Balance = balance;
         }
 
-        public void Withdraw(double amount)
+        public virtual void Withdraw(double amount)
         {
             Balance -= amount + 5.0;
         }

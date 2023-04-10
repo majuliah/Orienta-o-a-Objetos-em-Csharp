@@ -12,9 +12,14 @@
             InterestRate = interestRate;
         }
 
-        public void UpdateBalance(double amount)
+        public void UpdateBalance()
         {
-            Balance += amount * InterestRate;
+            Balance += Balance * InterestRate;
+        }
+
+        public override void Withdraw(double amount)
+        {
+            Balance -= amount;
         }
     }
 }

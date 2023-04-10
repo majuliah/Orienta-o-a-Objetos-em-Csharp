@@ -607,9 +607,15 @@ Rever a aula 67, parte de métodos com escopo local;
 
 #### sobreposição ou sobrescrita é a implementação de um método de uma superclasse na subclasse, e para que um método comum (não abstrato) possa ser sobreposto, deve ser incuído o prefixo virtual. Ao sobrescrever um método, devemos incluir um prefixo override.
 
+#### Na superclasse account, o método de saque cobra uma taxa de R$5.00 para realizar a operação:
 
 
 
+- #### VIRTUAL : Fica no método não abstrato da superclasse e permite que as subclasses sobrescrevam os métodos da superclasse.
+
+- #### OVERRIDE: Fica no método da subclasse que está sendo sobrescrito.
+
+  
 
 
 

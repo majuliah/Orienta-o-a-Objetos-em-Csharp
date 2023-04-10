@@ -10,9 +10,9 @@
             InterestRate = interestRate;
         }
 
-        public void UpdateBalance(double amount)
+        public void UpdateBalance()
         {
-            Balance += amount * InterestRate;
+            Balance += Balance * InterestRate;
             //saldo é atualizado mediante a base de juros
         }
     }

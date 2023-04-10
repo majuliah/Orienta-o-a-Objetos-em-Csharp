@@ -1,6 +1,6 @@
 ﻿namespace Cap1._2.Entities
 {
-    public class SavingAccount : Account
+    sealed class SavingAccount : Account
     {
         public double InterestRate { get; set; }
         

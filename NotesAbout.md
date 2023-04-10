@@ -669,13 +669,21 @@ namespace MetodosSelados
 
 ### MÉTODOS:
 
+#### Métodos só podem ser selados se eles já forem sobrescritos. Métodos sem sobreposição não podem ser selados:
+
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img75.png?raw=true)
+
+#### Agora quando tentarmos utilizar um método selado em uma classe que herda de SavingAccount:
+
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img76.png?raw=true)
 
 
 
+#### Utilizamos o sealed por questões de segurança e performance. Dependendo das circunstâncias, as vezes é necessário que uma classe não seja herdada e nem um método seja sobreposto. Geralmente sobreposições múltiplas de métodos podem gerar inconsistências. Por performance, atributos de classes seladas são analisados mais rapidamente em tempo de execução por não terem muitas utilizações.
 
+ 
 
-
-
+## POLIMORFISMO: 
 
 
 

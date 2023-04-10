@@ -607,15 +607,35 @@ Rever a aula 67, parte de métodos com escopo local;
 
 #### sobreposição ou sobrescrita é a implementação de um método de uma superclasse na subclasse, e para que um método comum (não abstrato) possa ser sobreposto, deve ser incuído o prefixo virtual. Ao sobrescrever um método, devemos incluir um prefixo override.
 
-#### Na superclasse account, o método de saque cobra uma taxa de R$5.00 para realizar a operação:
+#### Na superclasse account, o método de saque cobra uma taxa de R$5.00 para realizar a operação, sendo assim, todas as classes que herdam de account também possui a taxa de de saque. Para permitir que as subclasses alterem o método, inserimos a palavra virtual nos métodos que permitiremos alteração:
 
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img67.png?raw=true)
 
+#### Sendo assim, na classe que desejamos sobrescrever o método, inserimos a palavra reservada override e implementamos as alterações:
+
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img68.png?raw=true)
+
+#### Agora temos um exemplo. Dois objetos instanciados, um Account e um Savings Account:
+
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img69.png?raw=true)
+
+#### O resultado será:
+
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img70.png?raw=true)
+
+#### O primeiro resultado porque sacou 10.0 + a taxa de 5.0 e o segundo resultado se dá porque não tem taxa de saque.
 
 - #### VIRTUAL : Fica no método não abstrato da superclasse e permite que as subclasses sobrescrevam os métodos da superclasse.
 
-- #### OVERRIDE: Fica no método da subclasse que está sendo sobrescrito.
+- #### OVERRIDE: Fica no método da subclasse que está sendo sobrescrito. Reimplementamos métodos de superclasses dando um novo contexto mais adequado para o que a subclasse está se propondo a fazer.
 
-  
+#### Já a palavra base no contexto de sobrescrita serve para chamarmos a implementação da superclasse na subclasse. Um exemplo seria se a subclasse SavingAccount descontasse o valor normal da superclasse -5.00- mais uma taxa de 2.00 -totalizando 7.00-:
+
+#### Dessa forma conseguimos implementar a o método original e customizar do jeito que for necessário. 
+
+
+
+
 
 
 

@@ -19,7 +19,8 @@
 
         public override void Withdraw(double amount)
         {
-            Balance -= amount;
+            base.Withdraw(amount); //chamamos a operação da superclasse
+            Balance -= 2.0; //depois alteramos e ajustamos para o contexto
         }
     }
 }

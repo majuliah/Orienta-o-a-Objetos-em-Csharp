@@ -713,9 +713,29 @@ abstract class Funcionario
     }
 ```
 
-
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img77.png?raw=true)
 
 #### Reuso e polimorfismo são os benefícios de se utilizar classes abstratas. A superclasse permite tratar de forma fácil e uniforme todos os tipos de funcionários inclusive com polimorfismo. Podemos colocar diferentes objetos em uma mesma coleção.
+
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img78.png?raw=true)
+
+
+
+## MÉTODOS ABSTRATOS🖼️:
+
+#### São métodos que não possuem implementação, são implementados em classes genéricas demais para conter implementação. Se uma classe possuir pelo menos um método abstrato, então ela também é abstrata. 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

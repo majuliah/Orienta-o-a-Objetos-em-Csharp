@@ -6,4 +6,14 @@
         <RootNamespace>Cap1._5</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Remove="Entities\Crocheteira.cs" />
+      <Compile Remove="Entities\Designer.cs" />
+      <Compile Remove="Entities\Funcionario.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Entities\" />
+    </ItemGroup>
+
 </Project>

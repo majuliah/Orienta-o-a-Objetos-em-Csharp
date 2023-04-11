@@ -12,8 +12,4 @@
       <Compile Remove="Entities\Funcionario.cs" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Entities\" />
-    </ItemGroup>
-
 </Project>

@@ -696,6 +696,27 @@ Account conta2 = new SavingAccount (1001, Alex, 500.0, 0.01)
 
 
 
+## CLASSES ABSTRATAS🖼️:
+
+#### São classes que não são instanciadas por serem o conceito total de abstração e representam conceitos muito genéricos que não vale a pena trabalhar com eles. São incompletas e devem ser preenchidas por suas subclasses, estão no topo da hierarquia de classes.
+
+#### Também é uma forma de garantir herança total, já que somente subclasses não abstratas podem ser instanciadas:
+
+```c#
+abstract class Funcionario
+    {
+        public string Name { get; set; }
+        public DateTime Birth { get; set; }
+        public string Profession { get; set; }
+        
+        public Funcionario(){}
+    }
+```
+
+
+
+#### Reuso e polimorfismo são os benefícios de se utilizar classes abstratas. A superclasse permite tratar de forma fácil e uniforme todos os tipos de funcionários inclusive com polimorfismo. Podemos colocar diferentes objetos em uma mesma coleção.
+
 
 
 

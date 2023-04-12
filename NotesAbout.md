@@ -746,6 +746,10 @@ public abstract double ValorTotal();
 
 #### Bloco try/catch:
 
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img80.png?raw=true)
+
+#### Bloco finally: é o bloco que será executado independentemente de exceção ocorrer ou não. Exemplo clássico é quando é necessário fechar um arquivo ou conexão de banco de dados ao final do processamento. 
+
 
 
 

@@ -742,7 +742,9 @@ public abstract double ValorTotal();
 
 #### Uma exceção é qualquer condição de erro ou um comportamento não esperado encontrado pelo programa em **execução**. No .net, uma exceção é um **objeto** herdado da classe System.Exception, e quando lançada, uma exceção é propagada na pilha de chamadas de métodos em execução, até que seja capturada, tratada ou o programa encerrado. Elas permitem que os erros sejam tratado consistentemente e flexível, utilizando boas práticas. Delega a lógica do erro para a classe / método responsável por conhecer as regras que podem ocasionar os erros. Trata de forma organizada e hierárquica diferentes tipos de exceções, além de poder carregar dados quaisquer, isto é, quando lançada, o programa que receber a exceção, podemos manipular seus dados.
 
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img79.png?raw=true) hierarquia de classes Exception 
 
+#### Bloco try/catch:
 
 
 

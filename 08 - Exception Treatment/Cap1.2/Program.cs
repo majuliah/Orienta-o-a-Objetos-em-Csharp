@@ -22,7 +22,7 @@ namespace Cap1._2
 
                 Reservation reservation = new Reservation(rommnumber, checkin, checkout);
                 WriteLine($"Reservation: {reservation}");
-            
+
                 WriteLine($"Do you need to update checkin dates? [Y - N] ");
                 char answer = char.Parse(ReadLine().ToUpper());
                 if (answer == 'Y')
@@ -31,7 +31,7 @@ namespace Cap1._2
                     checkin = DateTime.Parse(ReadLine());
                     Write($"Checkout date: ");
                     checkout = DateTime.Parse(ReadLine());
-                
+
                     reservation.UpdateDates(checkin, checkout);
                     WriteLine($"Reservation: {reservation}");
                 }
@@ -39,6 +39,16 @@ namespace Cap1._2
             catch (DomainException exception)
             {
                 WriteLine(exception.Message);
+                throw;
+            }
+            catch (FormatException formatException)
+            {
+                WriteLine($"Format error: {formatException.Message}");
+                throw;
+            }
+            catch (Exception e)
+            {
+                WriteLine($"Unexpected error.");
                 throw;
             }
 

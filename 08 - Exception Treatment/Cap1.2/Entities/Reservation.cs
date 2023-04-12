@@ -1,4 +1,5 @@
 ﻿using System;
+using Cap1._2.Entities.Exceptions;
 
 namespace Cap1._2.Entities
 {
@@ -12,6 +13,9 @@ namespace Cap1._2.Entities
 
         public Reservation(int roomNumber, DateTime checkIn, DateTime checkOut)
         {
+            if (checkOut <= checkIn)
+                throw new DomainException($"Checkout cant be less than Check in");
+            
             RoomNumber = roomNumber;
             CheckIn = checkIn;
             CheckOut = checkOut;
@@ -25,8 +29,16 @@ namespace Cap1._2.Entities
 
         public void UpdateDates(DateTime checkIn, DateTime checkOut)
         {
+            DateTime now = DateTime.Now;
+            
+            if (checkIn < now || checkOut < now)
+                throw new DomainException($"Dates must be future");
+            if (checkOut <= checkIn)
+                throw new DomainException($"Checkout cant be less than Check in");
+
             CheckIn = checkIn;
             CheckOut = checkOut;
+
         }
 
         public override string ToString()

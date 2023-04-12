@@ -723,7 +723,28 @@ abstract class Funcionario
 
 ## MÉTODOS ABSTRATOS🖼️:
 
-#### São métodos que não possuem implementação, são implementados em classes genéricas demais para conter implementação. Se uma classe possuir pelo menos um método abstrato, então ela também é abstrata. 
+#### São métodos que não possuem implementação, são implementados em classes genéricas demais para conter implementação. Se uma classe possuir pelo menos um método abstrato, então ela também é abstrata. Obrigatoriamente devem ser utilizados em classes abstratas e utilizados em subclasses. Declaração de um método abstrato:
+
+```c#
+// declarando o método
+public abstract double ValorTotal();
+
+//utilizando o método em subclasses
+ public override double ValorTotal()
+{
+     //implementação
+}
+```
+
+
+
+## EXCESSÕES🛝:
+
+#### Uma exceção é qualquer condição de erro ou um comportamento não esperado encontrado pelo programa em **execução**. No .net, uma exceção é um **objeto** herdado da classe System.Exception, e quando lançada, uma exceção é propagada na pilha de chamadas de métodos em execução, até que seja capturada, tratada ou o programa encerrado. Elas permitem que os erros sejam tratado consistentemente e flexível, utilizando boas práticas. Delega a lógica do erro para a classe / método responsável por conhecer as regras que podem ocasionar os erros. Trata de forma organizada e hierárquica diferentes tipos de exceções, além de poder carregar dados quaisquer, isto é, quando lançada, o programa que receber a exceção, podemos manipular seus dados.
+
+
+
+
 
 
 

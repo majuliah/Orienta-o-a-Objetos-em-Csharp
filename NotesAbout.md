@@ -748,9 +748,9 @@ public abstract double ValorTotal();
 
 ![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img80.png?raw=true)
 
-#### Bloco finally: é o bloco que será executado independentemente de exceção ocorrer ou não. Exemplo clássico é quando é necessário fechar um arquivo ou conexão de banco de dados ao final do processamento. 
+#### Bloco finally: é o bloco que será executado independentemente de exceção ocorrer ou não. Exemplo clássico é quando é necessário fechar um arquivo ou conexão de banco de dados ao final do processamento. Sintaxe:
 
-
+![](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img81.png?raw=true)
 
 
 

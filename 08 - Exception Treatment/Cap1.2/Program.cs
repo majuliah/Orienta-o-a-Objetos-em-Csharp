@@ -51,8 +51,6 @@ namespace Cap1._2
                 WriteLine($"Unexpected error.");
                 throw;
             }
-
-
         }
     }
 }

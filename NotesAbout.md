@@ -810,7 +810,7 @@ public abstract double ValorTotal();
     }
 ```
 
-
+#### StreamWriter: Capaz de escrever caracteres a partir de uma stream binária, por exemplo o FileStream. Suporte a dados em formato de string(texto) e instancia com vários construtores, como File/FileInfo, createText -> path, AppendText -> string. Funciona como o StreamReader.
 
 #### Using Block: Sintaxe simplificada que garante que os objetos IDisposable (objetos não gerenciados pelo CLR(precisam manualmente ser gerenciados)) serão fechados. Exemplos: Font, FileStream, StreamReader, StreamWriter.
 

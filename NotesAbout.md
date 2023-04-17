@@ -816,6 +816,12 @@ public abstract double ValorTotal();
 
 
 
+## Directory/ Directory Info
+
+#### Realiza operações com pastas.
+
+
+
 
 
 

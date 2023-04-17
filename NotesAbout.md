@@ -766,6 +766,12 @@ public abstract double ValorTotal();
 
 
 
+#### FileStream: Disponibiliza uma stream associada a um arquivo permitindo operações de leitura e escrita. Tem suporte a dados binários. Instancia com vários construtores, File/FileInfo também.
+
+
+
+
+
 
 
 

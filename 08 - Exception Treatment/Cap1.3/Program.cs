@@ -13,9 +13,9 @@ namespace Cap1._3
         {
             WriteLine("Enter account data");
             Write("Number: ");
-            int number = int.Parse(Console.ReadLine());
+            int number = int.Parse(ReadLine());
             Write("Holder: ");
-            string holder = Console.ReadLine();
+            string holder = ReadLine();
             Write("Initial balance: ");
             double balance = double.Parse(ReadLine(), CultureInfo.InvariantCulture);
             Write("Withdraw limit: ");

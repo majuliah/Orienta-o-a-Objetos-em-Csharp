@@ -754,6 +754,18 @@ public abstract double ValorTotal();
 
 
 
+## Trabalhando com arquivos📂:
+
+#### File e FileInfo são namespaces de Systen.IO e realizam operações com arquivos e ajudam na criação de objetos FileStream. Realizam operações de create, copy, delete, move, open, etc.
+
+#### File: static members -> simples mas realiza verificação de segurança para cada operação. Um pouco mais lenta.
+
+#### FileInfo: Instance members, deixa o programa um pouco mais rápido e é utilizado quando a performance é importante.
+
+#### IOException: superclasse de quaisquer excessões que possam ocorrer quando trabalhamos com arquivos.
+
+
+
 
 
 

@@ -768,6 +768,52 @@ public abstract double ValorTotal();
 
 #### FileStream: Disponibiliza uma stream associada a um arquivo permitindo operações de leitura e escrita. Tem suporte a dados binários. Instancia com vários construtores, File/FileInfo também.
 
+![filestream](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img82.png?raw=true)
+
+#### StreamReader: É uma stream capaz de ler caracteres a partir de uma stream binária, exemplo o fileStream. Dá suporte a dados em formato string (texto) e é instanciada com vários construtores, File e fileInfo.
+
+![StreamReader](https://github.com/majuliah/ultimatePOOcSharp/blob/master/imgs/img83.png?raw=true)
+
+```c#
+   class Program
+    {
+        static void Main(string[] args)
+        {
+            string path = @"C:\arquivo.txt";
+            //FileStream fileStream = null;
+            StreamReader streamReader = null;
+
+            try
+            {
+                //fileStream = new FileStream(path, FileMode.Open);
+                //streamReader = new StreamReader(fileStream);
+                
+                streamReader = File.OpenText(path);
+
+                while (!streamReader.EndOfStream)
+                {
+                    string line = streamReader.ReadLine();
+                    WriteLine(line);                    
+                }
+            }
+            catch (IOException exception)
+            {
+                WriteLine($"An error ocurred");
+                WriteLine(exception.Message);
+            }
+            finally
+            {
+                if (streamReader != null) streamReader.Close();
+               // if (fileStream != null) fileStream.Close();
+            }
+        }
+    }
+```
+
+
+
+#### Using Block: Sintaxe simplificada que garante que os objetos IDisposable (objetos não gerenciados pelo CLR(precisam manualmente ser gerenciados)) serão fechados. Exemplos: Font, FileStream, StreamReader, StreamWriter.
+
 
 
 

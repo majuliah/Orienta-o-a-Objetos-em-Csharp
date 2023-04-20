@@ -824,6 +824,22 @@ public abstract double ValorTotal();
 
 
 
+## INTERFACES🦦:
+
+#### É um tipo que define um conjunto de operações que uma classe ou struct deve implementar. A interface estabelece um contrato em que a classe ou struct deve cumprir. Elas criam sistemas de baixo acoplamento e mais flexíveis.
+
+```c#
+interface IShape 
+{
+	double Area();
+	double Perimetro();
+}
+```
+
+
+
+
+
 
 
 

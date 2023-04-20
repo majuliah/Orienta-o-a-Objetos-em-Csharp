@@ -10,13 +10,13 @@ namespace Cap1._1
     {
         static void Main(string[] args)
         {
-            WriteLine($"Enter with rental data: ");
-            WriteLine($"Car model: ");
+            Write($"Enter with rental data: ");
+            Write($"Car model: ");
             string model = ReadLine();
             
-            WriteLine($"Pick up: [dd/MM/yyyy hh:mm]");
+            Write($"Pick up: [dd/MM/yyyy hh:mm] ");
             DateTime started = DateTime.ParseExact(ReadLine(), $"dd/MM/yyyy HH:mm", CultureInfo.InvariantCulture); 
-            WriteLine($"Return: [dd/MM/yyyy hh:mm]");
+            Write($"Return: [dd/MM/yyyy hh:mm] ");
             DateTime finished = DateTime.ParseExact(ReadLine(), $"dd/MM/yyyy HH:mm", CultureInfo.InvariantCulture);
 
             Write($"Enter price per hour: $");
@@ -25,7 +25,7 @@ namespace Cap1._1
             double day = double.Parse(ReadLine(), CultureInfo.InvariantCulture);
             
             CarRental carRental = new CarRental(started, finished, new Vehicle(model));
-            RentalServices rentalServices = new RentalServices(hour, day);
+            RentalServices rentalServices = new RentalServices(hour, day, new BrazilTaxesService());
             
             rentalServices.ProcessInvoice(carRental);
             WriteLine($"Invoice: ");

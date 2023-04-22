@@ -1,7 +1,8 @@
-﻿namespace Cap1._2.Services
+﻿namespace services
 {
     public interface IOnlinePaymentService
     {
-        
+        double PaymentFee(double amount);
+        double Interest(double amount, int months);
     }
 }

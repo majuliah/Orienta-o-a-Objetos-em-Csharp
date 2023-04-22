@@ -838,7 +838,19 @@ interface IShape
 
 
 
+## INVERSÃO DE CONTROLE
 
+#### Padrão de desenvolvimento que consiste em retirar da classe a responsabilidade de instanciar suas dependências.
+
+## INJEÇÃO DE DEPENDÊNCIA
+
+#### Forma de realizar a inversão de controle: um componente externo instancia a dependência, que é então injetada no objeto -pai-. Pode ser implementada de várias formas: 
+
+- #### Construtor,
+
+- #### Objeto de instanciação (builder/factory)
+
+- #### Container / framework
 
 
 

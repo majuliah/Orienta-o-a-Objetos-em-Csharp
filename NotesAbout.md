@@ -852,6 +852,16 @@ interface IShape
 
 - #### Container / framework
 
+## ASPECTOS COMUNS ENTRE HERANÇA E INTERFACES
+
+#### Em ambos temos a relação - é um -, possui o conceito de generalização e especialização e o polimorfismo. 
+
+#### A diferença fundamental entre ambas é que na herança temos o reuso e na interface temos um contrato a ser cumprido.
+
+#### Em uma superclasse Shape que possui um atributo color, suas duas subclasses rectangle e circle HERDARÃO o atributo color.
+
+#### Em uma interface TaxServices que possui o método tax, as classes que implementarem a interface TaxServices terão um contrato a cumprir, sendo obrigatório a utilização do método em questão.
+
 
 
 

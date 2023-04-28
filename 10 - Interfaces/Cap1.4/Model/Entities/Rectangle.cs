@@ -2,7 +2,7 @@
 
 namespace entities
 {
-    public class Rectangle : Shape
+    public class Rectangle : AbstractShape
     {
         public double Width { get; set; }
         public double Height { get; set; }

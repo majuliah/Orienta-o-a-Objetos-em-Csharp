@@ -4,7 +4,7 @@ using System.Numerics;
 
 namespace entities
 {
-    public class Circle : Shape
+    public class Circle : AbstractShape
     {
         public double Radius { get; set; }
 

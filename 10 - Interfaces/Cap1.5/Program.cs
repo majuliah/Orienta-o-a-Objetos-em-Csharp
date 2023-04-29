@@ -7,7 +7,7 @@ namespace Cap1._5
     {
         static void Main(string[] args)
         {
-            WriteLine("Hello World!");
+            WriteLine("Problema do diamante");
         }
     }
 }

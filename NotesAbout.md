@@ -870,6 +870,21 @@ interface IShape
 
 
 
+## INTERFACE  ICOMPARABLE
+
+#### Padrão do C# para realizar comparações entre objetos. Faz verificação entre maior, menor ou igual. 
+
+```c#
+public interface IComparable 
+{
+    int CompareTo(object otherObject);
+}
+```
+
+
+
+
+
 
 
 

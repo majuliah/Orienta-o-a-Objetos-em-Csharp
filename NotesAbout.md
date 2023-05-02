@@ -864,6 +864,10 @@ interface IShape
 
 
 
+## PROBLEMA DE DIAMANTE
+
+#### O problema do diamante consiste em uma ambiguidade causada pela existência do mesmo método de uma superclasse. Herança múltipla não é permitida na maioria das linguagens. A solução é a implementação de interfaces que possuem operações específicas. Não há herança múltipla e sim cumprimento de contrato de uma ou mais interfaces.
+
 
 
 

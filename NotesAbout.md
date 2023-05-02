@@ -883,6 +883,16 @@ public interface IComparable
 
 
 
+## GENERICS:
+
+#### Permitem que classes, métodos e interfaces sejam parametrizados por tipo. Benefícios são reúso, type safety e performance. O uso comum é em coleções.
+
+```c#
+List<string> list = new List<string>();
+list.Add(Maria);
+string name = list[0];
+```
+
 
 
 

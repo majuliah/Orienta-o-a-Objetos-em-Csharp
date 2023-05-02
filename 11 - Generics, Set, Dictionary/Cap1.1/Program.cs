@@ -7,7 +7,19 @@ namespace Cap1._1
     {
         static void Main(string[] args)
         {
-            WriteLine("Hello World!");
+            PrintService printService = new PrintService();
+            WriteLine($"How many values?");
+            int howMany = int.Parse(ReadLine());
+
+            for (int i = 0; i < howMany; i++)
+            {
+                int number = int.Parse(ReadLine());
+                printService.AddValue(number);
+            }
+            
+            printService.Print();
+            WriteLine($"Fist: {printService.First()}");
+            
         }
     }
 }

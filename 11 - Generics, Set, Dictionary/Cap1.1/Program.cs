@@ -7,7 +7,7 @@ namespace Cap1._1
     {
         static void Main(string[] args)
         {
-            PrintService printService = new PrintService();
+            PrintService<int> printService = new PrintService<int>();
             WriteLine($"How many values?");
             int howMany = int.Parse(ReadLine());
 

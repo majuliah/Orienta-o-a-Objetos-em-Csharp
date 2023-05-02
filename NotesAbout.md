@@ -893,7 +893,11 @@ list.Add(Maria);
 string name = list[0];
 ```
 
+#### Isso significa que ao criarmos classes, parametrizamos elas com um tipo genérico, muito comumente chamado T, que realiza operações com qualquer tipo que for instanciado. Nisso, utilizamos reúso nos programas. Se uma classe trabalhar somente com int e futuramente precisar trabalhar com parâmetros do tipo string, teríamos de criar uma classe idêntica somente alterando os parâmetros, e isso não cumpriria com o pilar da OO reuso. Se utilizássemos um tipo object, castings teriam de ser feitos, além de atrapalhar a performance do programa. Isso também não seria seguro pelo fato do TypeSafety não monitorar essas utilizações, gerando erro em tempo de compilação. A alternativa é fazer um tipo genérico que pode ser instanciado posteriormente com qualquer tipo que seja necessário. Dessa forma:
 
+```c#
+
+```
 
 
 

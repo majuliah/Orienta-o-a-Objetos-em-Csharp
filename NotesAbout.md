@@ -962,7 +962,7 @@ public class PrintService<T>
 
 
 
-## GETHASHCODE E EQUALS:
+## GETHASHCODE E EQUALS🐨:
 
 #### são operações da classe object usadas para comparação de objetos.
 
@@ -973,6 +973,60 @@ public class PrintService<T>
 #### Em uma lista repleta de objetos, utilizamos o hashcode para procurar o que estamos buscando. Quando acharmos, validamos com o equals para ter certeza de que realmente é o que buscamos.
 
 #### Os tipos pré-definidos (string, int, double, etc) já possuem implementação para estas operações. Classes e structs personalizados precisam sobrepô-la. 
+
+## CONJUNTOS: HashSet<T> e SortedSet<T>🫥:
+
+#### Representam um conjunto de elementos similar ao da álgebra. Não admitem repetições, elementos não possuem posição, acesso inserção e remoção de elementos são rápidos, oferece operações eficientes de conjunto: inserção, união e diferença. 
+
+#### HashSet: armazena os elementos organizando-os em uma tabela hash. Cada elemento possui um código associado e a estrutura de dados que é responsável por gerenciar isto. É um armazenamento extremamente rápido, em ordem de um passo a não ser que ocorram conflitos. A ordem dos elementos não é garantida, quando for percorrer os elementos, a ordem nunca é coesa.
+
+```c#
+HashSet<string> hashSet = new HashSet<string>();
+hashSet.Add($"TV");
+hashSet.Add($"Notebook");
+hashSet.Add($"Tablet");
+            
+WriteLine(hashSet.Contains($"Notebook"));
+WriteLine(hashSet.Contains($"Computer"));
+```
+
+
+
+#### SortedSet: Armazenamento em forma de árvore. É uma busca logarítmica. Os elementos são armazenados ordenadamente conforme na implementação IComparer<T>.
+
+```c#
+SortedSet<int> numbers1 = new SortedSet<int>(){ 0, 2, 4, 5, 6, 8, 10};
+SortedSet<int> numbers2 = new SortedSet<int>(){ 5, 6, 7, 8, 9, 10};
+            
+PrintCollection(numbers1);
+
+//union
+SortedSet<int> numbers3 = new SortedSet<int>(numbers1);
+numbers3.UnionWith(numbers2);
+PrintCollection(numbers3);
+//sortedSet mantém os elementos ordenados
+
+SortedSet<int> numbers4 = new SortedSet<int>(numbers1);
+numbers4.IntersectWith(numbers2);
+PrintCollection(numbers4);            
+            
+//difference
+SortedSet<int> numbers5 = new SortedSet<int>(numbers1);
+numbers5.ExceptWith(numbers2);
+PrintCollection(numbers5);
+```
+
+
+
+## COMO AS COLEÇÕES HASH  TESTAM IGUALDADE? 🐫🐪:
+
+#### Se getHashCode e Equals estiverem implementados: Primeiro o getHashCode e se der igual, usa o equals para confirmar.
+
+#### Se getHashCode não estiver implementado: Tipo referência compara a referência dos objetos e tipo valor compara o valor dos objetos.
+
+
+
+####
 
 
 

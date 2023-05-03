@@ -962,6 +962,22 @@ public class PrintService<T>
 
 
 
+## GETHASHCODE E EQUALS:
+
+#### são operações da classe object usadas para comparação de objetos.
+
+#### Equals: lento, resposta 100%. Retorna true ou false.
+
+#### GetHashCode: rápido, resposta positiva não 100% (podem haver coincidências). Retorna um número inteiro representado por um código gerado a partir das informações do objeto. Gera um hash diferente a cada execução realizada. Se o código de dois objetos for diferente, com certeza os objetos serão diferentes; Se o código de dois objetos for igual, muito provavelmente eles são iguais. Mas pode haver colisão  e os números serem gerados igualmente para cada objeto. 
+
+#### Em uma lista repleta de objetos, utilizamos o hashcode para procurar o que estamos buscando. Quando acharmos, validamos com o equals para ter certeza de que realmente é o que buscamos.
+
+#### Os tipos pré-definidos (string, int, double, etc) já possuem implementação para estas operações. Classes e structs personalizados precisam sobrepô-la. 
+
+
+
+
+
 
 
 

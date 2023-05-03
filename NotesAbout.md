@@ -816,7 +816,7 @@ public abstract double ValorTotal();
 
 
 
-## Directory/ Directory Info
+## Directory/ Directory Info 🧧:
 
 #### Realiza operações com pastas.
 
@@ -838,11 +838,11 @@ interface IShape
 
 
 
-## INVERSÃO DE CONTROLE
+## INVERSÃO DE CONTROLE♟️:
 
 #### Padrão de desenvolvimento que consiste em retirar da classe a responsabilidade de instanciar suas dependências.
 
-## INJEÇÃO DE DEPENDÊNCIA
+## INJEÇÃO DE DEPENDÊNCIA🦛:
 
 #### Forma de realizar a inversão de controle: um componente externo instancia a dependência, que é então injetada no objeto -pai-. Pode ser implementada de várias formas: 
 
@@ -852,7 +852,7 @@ interface IShape
 
 - #### Container / framework
 
-## ASPECTOS COMUNS ENTRE HERANÇA E INTERFACES
+## ASPECTOS COMUNS ENTRE HERANÇA E INTERFACES☁️:
 
 #### Em ambos temos a relação - é um -, possui o conceito de generalização e especialização e o polimorfismo. 
 
@@ -864,13 +864,13 @@ interface IShape
 
 
 
-## PROBLEMA DE DIAMANTE
+## PROBLEMA DE DIAMANTE💎:
 
 #### O problema do diamante consiste em uma ambiguidade causada pela existência do mesmo método de uma superclasse. Herança múltipla não é permitida na maioria das linguagens. A solução é a implementação de interfaces que possuem operações específicas. Não há herança múltipla e sim cumprimento de contrato de uma ou mais interfaces.
 
 
 
-## INTERFACE  ICOMPARABLE
+## INTERFACE  ICOMPARABLE 🏟️:
 
 #### Padrão do C# para realizar comparações entre objetos. Faz verificação entre maior, menor ou igual. 
 
@@ -883,7 +883,7 @@ public interface IComparable
 
 
 
-## GENERICS:
+## GENERICS🪷:
 
 #### Permitem que classes, métodos e interfaces sejam parametrizados por tipo. Benefícios são reúso, type safety e performance. O uso comum é em coleções.
 
@@ -896,12 +896,69 @@ string name = list[0];
 #### Isso significa que ao criarmos classes, parametrizamos elas com um tipo genérico, muito comumente chamado T, que realiza operações com qualquer tipo que for instanciado. Nisso, utilizamos reúso nos programas. Se uma classe trabalhar somente com int e futuramente precisar trabalhar com parâmetros do tipo string, teríamos de criar uma classe idêntica somente alterando os parâmetros, e isso não cumpriria com o pilar da OO reuso. Se utilizássemos um tipo object, castings teriam de ser feitos, além de atrapalhar a performance do programa. Isso também não seria seguro pelo fato do TypeSafety não monitorar essas utilizações, gerando erro em tempo de compilação. A alternativa é fazer um tipo genérico que pode ser instanciado posteriormente com qualquer tipo que seja necessário. Dessa forma:
 
 ```c#
+public class PrintService<T>
+    {
+        private T[] _values = new T[10];
+        private int _count = 0;
 
+        public void AddValue(T value)
+        {
+            if (_count == 10)
+            {
+                throw new InvalidOperationException($"PrntService is full");
+            }
+            _values[_count] = value;
+            _count++;
+        }
+
+        public T First()
+        {
+            if (_count == 0)
+            {
+                throw new InvalidOperationException($"PrntService is empty");
+            }
+            return _values[0];
+        }
+```
+
+#### Quando formos instanciar o objeto:
+
+```c#
+ PrintService<int> printService = new PrintService<int>();
+ WriteLine($"How many values?");
+ int howMany = int.Parse(ReadLine());
 ```
 
 
 
+## RESTRIÇÃO DE GENERICS 🦐:
 
+#### Nem só de baderna se vive um código! Nós podemos definir restrições quanto aos tipos em que usaremos no generic para que não seja totalmente volátil e sugestivo a erros. A restrição diz respeito a interface Icomparable. Um objeto só pode ser de qualquer tipo, desde que ele seja comparável um ao outro. A sintaxe:
+
+```c#
+ public class CalculationService
+    {
+        public T Max<T>(List<T> list) where T : IComparable
+        {
+            if (list.Count == 0)
+            {
+                throw new ArgumentException($"The list can not be empty");
+            }
+
+            T max = list[0];
+            for (int i = 1; i < list.Count; i++)
+            {
+                if (list[i].CompareTo(max) > 0)
+                {
+                    max = list[i];
+                }
+            }
+            return max;
+        }
+    }
+```
+
+#### Como foi dito antes, não somente as classes podem ter tipos genéricos, mas os métodos também. Acima temos um método genérico que deve só pode ser genérico se o seu tipo for comparável.  Existe outras restrições possíveis que podem ser checadas nos documentos da microsoft.
 
 
 

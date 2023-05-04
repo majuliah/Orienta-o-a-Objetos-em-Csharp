@@ -1028,6 +1028,40 @@ PrintCollection(numbers5);
 
 ####
 
+## inglês intermediário
+
+#### colaborar em projetos, fóruns de discussão, responder dúvidas no stack overflow
+
+#### uso do github > exemplos no github
+
+### Linkedin -> colocar no linkedin os artigos 
+
+#### colocar participação em projetos 
+
+#### FAZER FREELA -> diferencial -> dizer onde trabalhou e o que trabalhou
+
+#### trazer o que sei -> criar site e mostrar que tem 
+
+### Fazer um site, criar um artigo e ensinar o que fiz
+
+#### participar de provas, conversar depois da prova -> dar feedback no final da prova
+
+começar a carreira -> demonstrar interesse em me desenvolver
+
+#### background para aprender e replicar
+
+pesquisa, valida o exemplo e responde -> recriar exemplos pequenos
+
+forma de aprender -> criar snippets
+
+voltar a atenção em problemas simples 
+
+uma coletânea 
+
+quem sou eu e por que contrataria -> o que consigo agregar e por que eu agrego
+
+
+
 
 
 

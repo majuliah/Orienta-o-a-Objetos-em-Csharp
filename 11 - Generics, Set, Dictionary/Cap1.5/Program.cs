@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using entities;
 using static System.Console;
 
 namespace Cap1._5
@@ -9,7 +11,8 @@ namespace Cap1._5
         static void Main(string[] args)
         {
             Message();
-            
+
+            HashSet<LogRecord> hashSet = new HashSet<LogRecord>();
             WriteLine($"Enter file full path: ");
             string path = ReadLine();
 
@@ -19,9 +22,12 @@ namespace Cap1._5
                 {
                     while (!streamReader.EndOfStream)
                     {
-                        string line = streamReader.ReadLine();
-                        WriteLine(line);
+                        string[] line = streamReader.ReadLine().Split(' ');
+                        string name = line[0];
+                        DateTime instant = DateTime.Parse(line[1]);
+                        hashSet.Add(new LogRecord() { Username = name, Instant = instant });
                     }
+                    WriteLine($"Total users: {hashSet.Count}");
                 }
             }
             catch(IOException exception)

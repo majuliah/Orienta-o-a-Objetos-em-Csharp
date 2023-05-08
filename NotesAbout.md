@@ -1022,43 +1022,21 @@ PrintCollection(numbers5);
 
 #### Se getHashCode e Equals estiverem implementados: Primeiro o getHashCode e se der igual, usa o equals para confirmar.
 
-#### Se getHashCode não estiver implementado: Tipo referência compara a referência dos objetos e tipo valor compara o valor dos objetos.
+#### Se getHashCode não estiver implementado: Tipo referência compara a referência dos objetos e tipo valor compara o valor dos objetos. 
 
 
 
-####
+## DICTIONARY E SORTED DICTIONARY
 
-## inglês intermediário
+#### também conhecido em estruturas de dados como map, dictionary é uma coleção de pares chave/valor onde não admite repetições do objeto chave. Os elementos são indexados através do elemento chave e não possuem posição. O acesso, inserção e remoção dos elementos são mais rápidos.
 
-#### colaborar em projetos, fóruns de discussão, responder dúvidas no stack overflow
+#### Seus usos comuns são cookies, local storage, qualquer modelo de chave-valor etc.
 
-#### uso do github > exemplos no github
 
-### Linkedin -> colocar no linkedin os artigos 
 
-#### colocar participação em projetos 
 
-#### FAZER FREELA -> diferencial -> dizer onde trabalhou e o que trabalhou
 
-#### trazer o que sei -> criar site e mostrar que tem 
 
-### Fazer um site, criar um artigo e ensinar o que fiz
-
-#### participar de provas, conversar depois da prova -> dar feedback no final da prova
-
-começar a carreira -> demonstrar interesse em me desenvolver
-
-#### background para aprender e replicar
-
-pesquisa, valida o exemplo e responde -> recriar exemplos pequenos
-
-forma de aprender -> criar snippets
-
-voltar a atenção em problemas simples 
-
-uma coletânea 
-
-quem sou eu e por que contrataria -> o que consigo agregar e por que eu agrego
 
 
 

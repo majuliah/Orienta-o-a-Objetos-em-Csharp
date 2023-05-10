@@ -1026,7 +1026,7 @@ PrintCollection(numbers5);
 
 
 
-## DICTIONARY E SORTED DICTIONARY
+## DICTIONARY E SORTED DICTIONARY📖:
 
 #### também conhecido em estruturas de dados como map, dictionary é uma coleção de pares chave/valor onde não admite repetições do objeto chave. Os elementos são indexados através do elemento chave e não possuem posição. O acesso, inserção e remoção dos elementos são mais rápidos. Seus usos comuns são cookies, local storage, qualquer modelo de chave-valor etc.
 
@@ -1052,7 +1052,19 @@ PrintCollection(numbers5);
 
   
 
+  ## EXTENSION METHODS 🍭:
   
+  #### Métodos que estendem a funcionalidade de um tipo sem precisar alterar código fonte ou herdar dele.
+  
+  #### Como fazer um extension method:
+  
+  - #### Cria-se uma classe estática
+  
+  - #### Na classe, cria um método estático
+  
+  - #### O primeiro parâmetro do método deverá ter o prefixo this seguido da declaração de um parâmetro do tipo que se deseja estender. Esta será yma referência para o próprio objeto.
+  
+    
 
 
 

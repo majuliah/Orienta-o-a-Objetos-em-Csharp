@@ -6,4 +6,8 @@
         <RootNamespace>Cap1._7</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Remove="Relogio.cs" />
+    </ItemGroup>
+
 </Project>

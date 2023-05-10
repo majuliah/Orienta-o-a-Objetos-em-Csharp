@@ -1028,11 +1028,31 @@ PrintCollection(numbers5);
 
 ## DICTIONARY E SORTED DICTIONARY
 
-#### também conhecido em estruturas de dados como map, dictionary é uma coleção de pares chave/valor onde não admite repetições do objeto chave. Os elementos são indexados através do elemento chave e não possuem posição. O acesso, inserção e remoção dos elementos são mais rápidos.
+#### também conhecido em estruturas de dados como map, dictionary é uma coleção de pares chave/valor onde não admite repetições do objeto chave. Os elementos são indexados através do elemento chave e não possuem posição. O acesso, inserção e remoção dos elementos são mais rápidos. Seus usos comuns são cookies, local storage, qualquer modelo de chave-valor etc.
 
-#### Seus usos comuns são cookies, local storage, qualquer modelo de chave-valor etc.
+#### Diferenças entre Dictionary e SortedDictionary:
 
+- #### Dictionary
 
+  - #### Armazenamento em tabela hash;
+
+  - #### Extremamente rápido em inserção, remoção e busca O(1)
+
+  - #### A ordem dos elementos não é garantida;
+
+- #### SortedDictionary
+
+  - #### Armazenamento em árvore;
+
+  - #### Rápido em inserção, remoção e busca O(log(n))
+
+  - #### Os elementos estão armazenados ordenadamente conforme implementação IComparer<T>
+
+  #### dictionary[key] - acessa o elemento pelo valor da key informada
+
+  
+
+  
 
 
 

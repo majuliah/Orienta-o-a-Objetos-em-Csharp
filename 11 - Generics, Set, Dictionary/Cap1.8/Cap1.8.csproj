@@ -6,4 +6,16 @@
         <RootNamespace>Cap1._8</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Remove="Entities\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Entities\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Entities\**" />
+    </ItemGroup>
+
 </Project>

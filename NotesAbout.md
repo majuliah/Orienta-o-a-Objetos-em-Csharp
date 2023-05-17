@@ -1068,6 +1068,10 @@ PrintCollection(numbers5);
 
 
 
+## LAMBDA, DELEGATES, LINQ
+
+#### Programação funcional e cálculos lambda
+
 
 
 

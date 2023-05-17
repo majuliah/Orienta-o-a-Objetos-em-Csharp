@@ -16,12 +16,18 @@ namespace Cap1._1
             lista.Add(new Product($"Notebook", 1200.00));
             lista.Add(new Product($"Tablet", 450.00));
             
-            lista.Sort();
+            lista.Sort(CompareProducts);
+            // referência para a função, conhecida como delegate
+            
             foreach (Product product in lista)
             {
                 WriteLine(product);
             }
+        }
 
+        static int CompareProducts(Product p1, Product p2)
+        {
+            return p1.Name.ToUpper().CompareTo(p2.Name.ToUpper());
         }
     }
 }

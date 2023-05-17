@@ -21,7 +21,8 @@ namespace Cap1._1.Entities
 
         public int CompareTo(Product obj)
         {
-            return Name.ToUpper().CompareTo(obj.Name.ToUpper());
+            //return Name.ToUpper().CompareTo(obj.Name.ToUpper());
+            return Price.CompareTo(obj.Price);
         }
         
     }

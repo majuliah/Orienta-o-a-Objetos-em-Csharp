@@ -1094,6 +1094,8 @@ PrintCollection(numbers5);
 
 
 
+#### MULTICAST DELEGATES:
+
 
 
 

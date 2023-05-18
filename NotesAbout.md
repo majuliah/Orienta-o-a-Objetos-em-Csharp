@@ -1072,6 +1072,26 @@ PrintCollection(numbers5);
 
 #### Programação funcional e cálculos lambda
 
+#### C# é uma linguagem multiparadigma
+
+|                                              | Programação Imperativa       | Programação Funcional            | Descrição                                                    |
+| -------------------------------------------- | ---------------------------- | -------------------------------- | ------------------------------------------------------------ |
+| Como se descreve algo a ser computado        | Comandos (como - imperativa) | Expressões (o que - declarativa) | Na imperativa escrevemos comandos e dizemos como fazer. Na funcional descrevemos através de expressões, e dizemos o que queremos. |
+| Expressividade/ código conciso               | baixa                        | alta                             | Expressividade baixa: muito código para pouca ação. Expressividade alta: pouco código para mais ações, declarando como queremos. |
+| Funções possuem transparência referencial    | fraco                        | forte                            | O resultado da função depende apenas de seus parâmetros. É bom pela função ser mais fácil de entender. Na programação imperativa isso é fraco enquanto na funcional isso é forte. |
+| Objetos imutáveis                            | raro                         | comum                            | São mais fáceis de entender e são paralelizados              |
+| Funções são objetos de primeira ordem/classe | nçao                         | sim                              | As funções podem ser passadas como parâmetros de métodos bem como retornadas como resultado de métodos. |
+| Inferência de tipos                          | raro                         | comum                            | não é necessário inferir tipos às variáveis, o compilador é capaz de entender pelos valores que a ela foram passados (Quando usamos var em c#) |
+| Execução tardia (lazy)                       | raro                         | comum                            | uma expressão só é executada quando precisamos de seu resultado |
+
+
+
+## INTRODUÇÃO A DELEGATES
+
+#### Delegates são tipos em c#, é uma referência com type safety para um ou mais métodos. É um tipo referência e seus usos comuns são em comunicação entre objetos de forma flexível e extensível (eventos e callbacks) e parametrização de operações por métodos - programação funcional.
+
+#### Os principais delegates pré-definidos são Action, Func e Predicate.
+
 
 
 

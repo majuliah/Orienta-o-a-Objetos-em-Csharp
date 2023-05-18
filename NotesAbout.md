@@ -1068,7 +1068,7 @@ PrintCollection(numbers5);
 
 
 
-## LAMBDA, DELEGATES, LINQ
+## LAMBDA, DELEGATES, LINQ🔥:
 
 #### Programação funcional e cálculos lambda
 
@@ -1086,7 +1086,7 @@ PrintCollection(numbers5);
 
 
 
-## INTRODUÇÃO A DELEGATES
+## INTRODUÇÃO A DELEGATES 🫣:
 
 #### Delegates são tipos em c#, é uma referência com type safety para um ou mais métodos. É um tipo referência e seus usos comuns são em comunicação entre objetos de forma flexível e extensível (eventos e callbacks) e parametrização de operações por métodos - programação funcional.
 
@@ -1094,11 +1094,17 @@ PrintCollection(numbers5);
 
 
 
-#### MULTICAST DELEGATES:
+#### MULTICAST DELEGATES🧶:
 
 #### São delegates que guardam referência para mais de um método. Para adicionar uma referência, pode-se usar o operador += . A chamada Invoke(ou sintaxe reduzida) executa todos os métodos na ordem em que foram adicionados e seu uso faz sentido para métodos void.
 
+#### PREDICATE🏟️:
 
+#### É um delegate que recebe um objeto do tipo T e retorna um valor booleano. 
+
+```c#
+public delegate bool Predicate<in T>(T obj);
+```
 
 
 

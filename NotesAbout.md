@@ -1094,17 +1094,25 @@ PrintCollection(numbers5);
 
 
 
-#### MULTICAST DELEGATES🧶:
+#### **MULTICAST DELEGATES🧶:**
 
 #### São delegates que guardam referência para mais de um método. Para adicionar uma referência, pode-se usar o operador += . A chamada Invoke(ou sintaxe reduzida) executa todos os métodos na ordem em que foram adicionados e seu uso faz sentido para métodos void.
 
-#### PREDICATE🏟️:
+#### **PREDICATE🏟️:**
 
 #### É um delegate que recebe um objeto do tipo T e retorna um valor booleano. 
 
 ```c#
 public delegate bool Predicate<in T>(T obj);
 ```
+
+#### Basicamente o resultado da função depende de um booleano.
+
+#### **ACTION🤺:**
+
+#### Representa um método void que recebe 0 ou mais argumentos. Ele recebe de 0 a 15 parâmetros. 
+
+
 
 
 

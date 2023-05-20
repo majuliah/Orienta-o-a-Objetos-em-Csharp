@@ -85,6 +85,25 @@ namespace Cap1._8
             var r15 = products.Where(p => p.Category.Id == 5).Select(p => p.Price).DefaultIfEmpty(0.0).Average();
             WriteLine($"Category 5 (doesnt exist) and average of all products {r14}");
             
+            //aggregate
+            var r16 = products.Where(p => p.Category.Id == 1).Select(p => p.Price).Aggregate((x , y) => x + y);
+            WriteLine($"Categoria 1 aggregate soma, {r16}");            
+            
+            var r17 = products.Where(p => p.Category.Id == 10).Select(p => p.Price).Aggregate(0.0, (x , y) => x + y);
+            WriteLine($"Categoria 1 aggregate soma, {r17}");
+
+            var r18 = products.GroupBy(p => p.Category);
+            foreach (IGrouping<Category, Product> group in r17)
+            {
+                WriteLine($"Category {group.Key.Name}: ");
+                foreach (Product p in group)
+                {
+                    WriteLine(p);
+                }
+                WriteLine();
+            }
+
+
         }
     }
 }

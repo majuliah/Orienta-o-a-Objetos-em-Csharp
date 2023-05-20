@@ -1112,9 +1112,23 @@ public delegate bool Predicate<in T>(T obj);
 
 #### Representa um método void que recebe 0 ou mais argumentos. Ele recebe de 0 a 15 parâmetros. 
 
+#### FUNC⚠️:
+
+#### Representa um método que retorna um valor e recebe um ou mais argumentos. Recebe de 0 a 16 parâmetros. É o mesmo que o action mas ele retorna valores.
 
 
 
+## LINQ👩‍💻:
+
+#### LINQ é um conjunto de tecnologias baseadas na integração de funcionalidades de consulta diretamente na linguagem c#.
+
+#### Language Integrated Query -> Operações chamadas diretamente a partir das coleções, consultas são objetos de primeira classe, suporte do compilador e intellisense da ide. Possui diversas operações de consulta cujos parâmetros tipicamente são expressões labda ou expressões de sintaxe similar ao SQL.
+
+### 3 passos para trabalhar com LINQ:
+
+#### Ter um datasource -> definir a query -> executar a query
+
+#### Aula 236 -> operações com LINQ
 
 
 

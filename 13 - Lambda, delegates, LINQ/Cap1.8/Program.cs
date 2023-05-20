@@ -93,7 +93,7 @@ namespace Cap1._8
             WriteLine($"Categoria 1 aggregate soma, {r17}");
 
             var r18 = products.GroupBy(p => p.Category);
-            foreach (IGrouping<Category, Product> group in r17)
+            foreach (IGrouping<Category, Product> group in r18)
             {
                 WriteLine($"Category {group.Key.Name}: ");
                 foreach (Product p in group)

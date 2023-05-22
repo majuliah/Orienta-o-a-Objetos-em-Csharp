@@ -1130,6 +1130,10 @@ public delegate bool Predicate<in T>(T obj);
 
 #### Aula 236 -> operações com LINQ
 
+## ÁLGEBRA RELACIONAL E SQL🖇️:
+
+#### A álgebra relacional é um formalismo que define formações no modelo relacional. Ela possui restrição, projeção, produto cartesiano e junção (produto cartesiano + restrição de chaves correspondentes)
+
 
 
 
